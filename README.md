@@ -4,6 +4,8 @@ A searchable frontend for the [Awesome Design Resources List](https://github.com
 
 This project turns the upstream Markdown list into a structured JSON dataset, then renders it as a fast React app with grouped cards and instant search. It is built with Vite, tested with Vitest, and deployed with a small Cloudflare Worker that serves the static build output.
 
+This repository was created with AI assistance, and that is an intentional part of how it has been put together.
+
 ## Features
 
 - Fast client-side search across resource titles, URLs, descriptions, and group names
@@ -49,6 +51,8 @@ The app does not fetch resources at runtime. Instead, the source list is process
 2. `scripts/generate-resource-data.ts` parses that Markdown into `src/data/resources.json`.
 3. `src/App.tsx` loads the generated JSON and renders searchable groups of resource cards.
 4. `worker/index.ts` serves the Vite build output from `dist/` using Cloudflare assets.
+
+There is a plan to make the source information live in a future version, but today the app uses this generated local dataset approach for reliability and simple static deployment.
 
 The parser in `src/lib/resourceData.ts`:
 
