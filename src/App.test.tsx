@@ -73,13 +73,14 @@ describe("App", () => {
 
     const resourceLink = screen.getByRole("link", { name: /simple design system/i });
     const sourceLink = screen.getByRole("link", {
-      name: /awesome design resources list by yanka darelova/i,
+      name: /awesome design resources list/i,
     });
+    const authorLink = screen.getByRole("link", { name: /yanka darelova/i });
     const projectLink = screen.getByRole("link", { name: /project github repository/i });
 
     expect(resourceLink).toHaveAttribute("target", "_blank");
     expect(sourceLink).toHaveAttribute("target", "_blank");
+    expect(authorLink).toHaveAttribute("target", "_blank");
     expect(projectLink).toHaveAttribute("target", "_blank");
   });
 });
-

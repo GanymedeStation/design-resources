@@ -5,6 +5,7 @@ import githubIcon from "../assets/github.svg";
 import logoImage from "../assets/logo.png";
 
 const PROJECT_REPO_URL = "https://github.com/GanymedeStation/design-resources";
+const AUTHOR_REPO_URL = "https://github.com/darelova";
 
 interface AppProps {
   dataset?: ResourceDataset;
@@ -89,7 +90,11 @@ function App({ dataset = loadResourceDataset() }: AppProps) {
           <p>
             Frontend for{" "}
             <a href={dataset.sourceRepoUrl} target="_blank" rel="noreferrer">
-              Awesome Design Resources List by Yanka Darelova
+              Awesome Design Resources List
+            </a>{" "}
+            by{" "}
+            <a href={AUTHOR_REPO_URL} target="_blank" rel="noreferrer">
+              Yanka Darelova
             </a>
           </p>
           <p>GNU General Public License v3.0</p>
