@@ -4,7 +4,7 @@ A searchable frontend for the [Awesome Design Resources List](https://github.com
 
 This project turns the upstream Markdown list into a structured JSON dataset, then renders it as a fast React app with grouped cards and instant search. It is built with Vite, tested with Vitest, and deployed with a small Cloudflare Worker that serves the static build output.
 
-This repository was created with AI assistance, and that is an intentional part of how it has been put together.
+This repository was created with OpenAI Codex.
 
 ## Features
 
@@ -166,13 +166,6 @@ Before deploying, make sure:
 - the project builds cleanly
 - any dataset updates have been regenerated
 - you are authenticated with Wrangler in the environment you are deploying from
-
-## Notes for contributors
-
-- `src/data/resources.json` is generated code-like data, not hand-edited source
-- `data/upstream/README.md` is the canonical local input for dataset generation
-- `dist/` contains build output and can be regenerated at any time
-- search uses a deferred query in React to keep filtering responsive as the user types
 
 ## License
 
