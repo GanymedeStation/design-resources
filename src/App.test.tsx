@@ -44,6 +44,8 @@ describe("App", () => {
 
     expect(screen.getByRole("heading", { name: "Figma plugins & resources" })).toBeInTheDocument();
     expect(screen.getByRole("link", { name: /simple design system/i })).toBeInTheDocument();
+    expect(screen.getByText("a starter kit")).toBeInTheDocument();
+    expect(screen.getByText("figma.com")).toBeInTheDocument();
   });
 
   it("filters groups and items by the search query", async () => {
@@ -56,6 +58,7 @@ describe("App", () => {
     expect(screen.queryByText("Figma plugins & resources")).not.toBeInTheDocument();
     expect(screen.getByText("Icon packs")).toBeInTheDocument();
     expect(screen.getByRole("link", { name: /heroicons/i })).toBeInTheDocument();
+    expect(screen.getByText("svg icon set")).toBeInTheDocument();
   });
 
   it("shows an empty state when nothing matches", async () => {
