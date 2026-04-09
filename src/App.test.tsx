@@ -1,4 +1,4 @@
-import { render, screen } from "@testing-library/react";
+import { render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import App from "./App";
 import type { ResourceDataset } from "./data/resourceTypes";
@@ -69,6 +69,23 @@ describe("App", () => {
     await user.type(screen.getByRole("searchbox", { name: /search resources/i }), "typography");
 
     expect(screen.getByText("No resources found")).toBeInTheDocument();
+  });
+
+  it("opens a command palette with Cmd/Ctrl+K and shows matching resources", async () => {
+    const user = userEvent.setup();
+
+    render(<App dataset={dataset} />);
+
+    await user.keyboard("{Meta>}k{/Meta}");
+
+    const dialog = screen.getByRole("dialog", { name: /command palette/i });
+    expect(dialog).toBeInTheDocument();
+
+    await user.type(within(dialog).getByRole("searchbox", { name: /search all resources/i }), "hero");
+
+    expect(within(dialog).getByRole("link", { name: /heroicons/i })).toBeInTheDocument();
+    expect(within(dialog).getByText("Icon packs")).toBeInTheDocument();
+    expect(within(dialog).queryByText("Simple Design System")).not.toBeInTheDocument();
   });
 
   it("opens footer and resource links in a new tab", () => {

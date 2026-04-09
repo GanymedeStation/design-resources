@@ -1,6 +1,6 @@
-import { useDeferredValue, useMemo, useState } from "react";
+import { useDeferredValue, useEffect, useMemo, useRef, useState } from "react";
 import { loadResourceDataset } from "./data/loadResourceDataset";
-import type { ResourceDataset } from "./data/resourceTypes";
+import type { ResourceDataset, ResourceItem } from "./data/resourceTypes";
 import githubIcon from "../assets/github.svg";
 import logoImage from "../assets/logo.png";
 
@@ -13,6 +13,8 @@ interface AppProps {
 
 function App({ dataset = loadResourceDataset() }: AppProps) {
   const [query, setQuery] = useState("");
+  const [isPaletteOpen, setIsPaletteOpen] = useState(false);
+  const [paletteQuery, setPaletteQuery] = useState("");
   const [shouldAutoFocusSearch] = useState(() => {
     if (typeof window === "undefined" || typeof window.matchMedia !== "function") {
       return true;
@@ -20,6 +22,7 @@ function App({ dataset = loadResourceDataset() }: AppProps) {
 
     return !window.matchMedia("(pointer: coarse)").matches;
   });
+  const paletteInputRef = useRef<HTMLInputElement | null>(null);
   const deferredQuery = useDeferredValue(query);
   const normalizedQuery = deferredQuery.trim().toLowerCase();
 
@@ -35,6 +38,67 @@ function App({ dataset = loadResourceDataset() }: AppProps) {
       }))
       .filter((group) => group.items.length > 0);
   }, [dataset.groups, normalizedQuery]);
+
+  const paletteResults = useMemo(() => {
+    const normalizedPaletteQuery = paletteQuery.trim().toLowerCase();
+    const allItems = dataset.groups.flatMap((group) =>
+      group.items.map((item) => ({
+        item,
+        groupId: group.id,
+        groupTitle: group.title,
+      })),
+    );
+
+    if (!normalizedPaletteQuery) {
+      return allItems.slice(0, 10);
+    }
+
+    return allItems
+      .filter(({ item, groupTitle }) =>
+        [item.searchText, groupTitle].filter(Boolean).join(" ").includes(normalizedPaletteQuery),
+      )
+      .slice(0, 10);
+  }, [dataset.groups, paletteQuery]);
+
+  useEffect(() => {
+    if (typeof window === "undefined") {
+      return;
+    }
+
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k") {
+        event.preventDefault();
+        setIsPaletteOpen(true);
+        return;
+      }
+
+      if (event.key === "Escape") {
+        setIsPaletteOpen(false);
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyDown);
+
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, []);
+
+  useEffect(() => {
+    if (!isPaletteOpen) {
+      return;
+    }
+
+    paletteInputRef.current?.focus();
+  }, [isPaletteOpen]);
+
+  function closePalette() {
+    setIsPaletteOpen(false);
+    setPaletteQuery("");
+  }
+
+  function handlePaletteResultSelect(item: ResourceItem) {
+    setQuery(item.title);
+    closePalette();
+  }
 
   return (
     <div className="page-shell">
@@ -60,7 +124,9 @@ function App({ dataset = loadResourceDataset() }: AppProps) {
               id="resource-search"
               name="search"
               type="search"
-              placeholder="Search resources"
+              placeholder={
+                shouldAutoFocusSearch ? "Search resources (Cmd/Ctrl+K)" : "Search resources"
+              }
               autoFocus={shouldAutoFocusSearch}
               value={query}
               onChange={(event) => setQuery(event.target.value)}
@@ -69,9 +135,83 @@ function App({ dataset = loadResourceDataset() }: AppProps) {
           </div>
         </section>
 
+        {isPaletteOpen ? (
+          <div
+            className="command-palette-backdrop"
+            role="presentation"
+            onClick={(event) => {
+              if (event.target === event.currentTarget) {
+                closePalette();
+              }
+            }}
+          >
+            <div
+              className="command-palette"
+              role="dialog"
+              aria-modal="true"
+              aria-label="Command palette"
+            >
+              <div className="command-palette-header">
+                <p className="command-palette-label">Quick search</p>
+                <button
+                  className="command-palette-close"
+                  type="button"
+                  onClick={closePalette}
+                  aria-label="Close command palette"
+                >
+                  Esc
+                </button>
+              </div>
+              <label className="sr-only" htmlFor="command-palette-search">
+                Search all resources
+              </label>
+              <input
+                ref={paletteInputRef}
+                id="command-palette-search"
+                className="command-palette-input"
+                type="search"
+                placeholder="Search any resource"
+                value={paletteQuery}
+                onChange={(event) => setPaletteQuery(event.target.value)}
+                autoComplete="off"
+              />
+              <div className="command-palette-results">
+                {paletteResults.length === 0 ? (
+                  <p className="command-palette-empty">No matching resources.</p>
+                ) : (
+                  paletteResults.map(({ item, groupId, groupTitle }) => (
+                    <a
+                      className="command-palette-item"
+                      key={item.id}
+                      href={item.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      onClick={() => handlePaletteResultSelect(item)}
+                    >
+                      <span className="command-palette-item-main">
+                        <span className="command-palette-item-title">{item.title}</span>
+                        <span className="command-palette-item-description">
+                          {item.description ?? "Open resource"}
+                        </span>
+                      </span>
+                      <span className="command-palette-item-meta">
+                        <span>{groupTitle}</span>
+                        <span className="command-palette-item-domain">
+                          {formatHostname(item.url)}
+                        </span>
+                      </span>
+                      <span className="sr-only">Jump target #{groupId}</span>
+                    </a>
+                  ))
+                )}
+              </div>
+            </div>
+          </div>
+        ) : null}
+
         {filteredGroups.length > 0 ? (
-          <nav className="contents-nav" aria-label="Contents">
-            <p className="contents-label">Contents</p>
+          <nav className="contents-nav" aria-label="Sections">
+            <p className="contents-label">Sections</p>
             <div className="contents-list">
               {filteredGroups.map((group) => (
                 <a className="contents-link" key={group.id} href={`#${group.id}`}>
