@@ -56,7 +56,7 @@ describe("App", () => {
     await user.type(screen.getByRole("searchbox", { name: /search resources/i }), "hero");
 
     expect(screen.queryByText("Figma plugins & resources")).not.toBeInTheDocument();
-    expect(screen.getByText("Icon packs")).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Icon packs" })).toBeInTheDocument();
     expect(screen.getByRole("link", { name: /heroicons/i })).toBeInTheDocument();
     expect(screen.getByText("svg icon set")).toBeInTheDocument();
   });

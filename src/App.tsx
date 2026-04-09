@@ -39,6 +39,7 @@ function App({ dataset = loadResourceDataset() }: AppProps) {
   return (
     <div className="page-shell">
       <main className="page">
+        <a className="top-anchor" id="top" href="#top" aria-hidden="true" tabIndex={-1} />
         <header className="hero">
           <div className="hero-brand">
             <img className="brand-logo" src={logoImage} alt="" aria-hidden="true" />
@@ -67,6 +68,20 @@ function App({ dataset = loadResourceDataset() }: AppProps) {
             />
           </div>
         </section>
+
+        {filteredGroups.length > 0 ? (
+          <nav className="contents-nav" aria-label="Contents">
+            <p className="contents-label">Contents</p>
+            <div className="contents-list">
+              {filteredGroups.map((group) => (
+                <a className="contents-link" key={group.id} href={`#${group.id}`}>
+                  <span>{group.title}</span>
+                  <span className="contents-count">{group.items.length}</span>
+                </a>
+              ))}
+            </div>
+          </nav>
+        ) : null}
 
         <section className="groups" aria-label="Resource groups">
           {filteredGroups.length === 0 ? (
@@ -103,7 +118,6 @@ function App({ dataset = loadResourceDataset() }: AppProps) {
                       </div>
                       <div className="resource-meta" aria-hidden="true">
                         <span className="resource-domain">{formatHostname(item.url)}</span>
-                        <span className="resource-url">{item.url}</span>
                       </div>
                     </a>
                   ))}
@@ -112,6 +126,10 @@ function App({ dataset = loadResourceDataset() }: AppProps) {
             ))
           )}
         </section>
+
+        <a className="back-to-top back-to-top-floating" href="#top">
+          Back to top
+        </a>
 
         <footer className="footer">
           <div className="accent-line footer-line" aria-hidden="true" />
