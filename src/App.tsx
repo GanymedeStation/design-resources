@@ -27,7 +27,7 @@ function App({ dataset = loadResourceDataset() }: AppProps) {
       return false;
     }
 
-    const navigationEntries = performance.getEntriesByType("navigation");
+    const navigationEntries = performance.getEntriesByType("navigation") as PerformanceNavigationTiming[];
     return navigationEntries[0]?.type === "back_forward";
   });
   const searchInputRef = useRef<HTMLInputElement | null>(null);
