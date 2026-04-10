@@ -22,6 +22,15 @@ function App({ dataset = loadResourceDataset() }: AppProps) {
 
     return !window.matchMedia("(pointer: coarse)").matches;
   });
+  const [shouldRestoreScroll] = useState(() => {
+    if (typeof window === "undefined" || typeof performance === "undefined") {
+      return false;
+    }
+
+    const navigationEntries = performance.getEntriesByType("navigation");
+    return navigationEntries[0]?.type === "back_forward";
+  });
+  const searchInputRef = useRef<HTMLInputElement | null>(null);
   const paletteInputRef = useRef<HTMLInputElement | null>(null);
   const deferredQuery = useDeferredValue(query);
   const normalizedQuery = deferredQuery.trim().toLowerCase();
@@ -90,6 +99,14 @@ function App({ dataset = loadResourceDataset() }: AppProps) {
     paletteInputRef.current?.focus();
   }, [isPaletteOpen]);
 
+  useEffect(() => {
+    if (!shouldAutoFocusSearch || shouldRestoreScroll) {
+      return;
+    }
+
+    searchInputRef.current?.focus({ preventScroll: true });
+  }, [shouldAutoFocusSearch, shouldRestoreScroll]);
+
   function closePalette() {
     setIsPaletteOpen(false);
     setPaletteQuery("");
@@ -121,13 +138,13 @@ function App({ dataset = loadResourceDataset() }: AppProps) {
               Search resources
             </label>
             <input
+              ref={searchInputRef}
               id="resource-search"
               name="search"
               type="search"
               placeholder={
                 shouldAutoFocusSearch ? "Search resources (Cmd/Ctrl+K)" : "Search resources"
               }
-              autoFocus={shouldAutoFocusSearch}
               value={query}
               onChange={(event) => setQuery(event.target.value)}
               autoComplete="off"

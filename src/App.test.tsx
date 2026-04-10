@@ -1,5 +1,6 @@
 import { render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
+import { afterEach, vi } from "vitest";
 import App from "./App";
 import type { ResourceDataset } from "./data/resourceTypes";
 
@@ -39,6 +40,18 @@ const dataset: ResourceDataset = {
 };
 
 describe("App", () => {
+  afterEach(() => {
+    vi.restoreAllMocks();
+  });
+
+  it("does not autofocus the search field when the page is restored from history", () => {
+    vi.spyOn(performance, "getEntriesByType").mockReturnValue([{ type: "back_forward" }] as never);
+
+    render(<App dataset={dataset} />);
+
+    expect(screen.getByRole("searchbox", { name: /search resources/i })).not.toHaveFocus();
+  });
+
   it("renders grouped cards from the dataset", () => {
     render(<App dataset={dataset} />);
 
