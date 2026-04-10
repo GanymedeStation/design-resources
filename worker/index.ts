@@ -1,4 +1,5 @@
 import resourceDataset from "../src/data/resources.json";
+import { createClientErrorResponse } from "./errorPage";
 
 type AssetFetcher = {
   fetch(request: Request): Promise<Response>;
@@ -22,6 +23,12 @@ export default {
       });
     }
 
-    return env.ASSETS.fetch(request);
+    const response = await env.ASSETS.fetch(request);
+
+    if (response.status >= 400 && response.status < 500) {
+      return createClientErrorResponse(response.status, url, request.method);
+    }
+
+    return response;
   },
 };
