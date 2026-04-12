@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-03-17T09:46:10.239Z",
+  "generatedAt": "2026-04-12T09:08:38.690Z",
   "sourceRepoUrl": "https://github.com/darelova/Awesome-Design-Resources-List",
   "sourceReadmeUrl": "https://raw.githubusercontent.com/darelova/Awesome-Design-Resources-List/master/README.md",
   "groups": [
@@ -308,6 +308,13 @@
           "url": "https://onepagelove.com/",
           "description": "a website design gallery showcasing the best single-page websites, templates, and resources",
           "searchText": "one page love https://onepagelove.com/ a website design gallery showcasing the best single-page websites, templates, and resources inspiration & community (showcases, portfolios, galleries) inspiration & community (showcases, portfolios, galleries)"
+        },
+        {
+          "id": "resource-44",
+          "title": "Minimal Gallery",
+          "url": "https://minimal.gallery/",
+          "description": "a curated source of website design inspiration aiming to support people in their creative process",
+          "searchText": "minimal gallery https://minimal.gallery/ a curated source of website design inspiration aiming to support people in their creative process inspiration & community (showcases, portfolios, galleries) inspiration & community (showcases, portfolios, galleries)"
         }
       ]
     },
@@ -317,14 +324,14 @@
       "parentTitle": "Other Collections",
       "items": [
         {
-          "id": "resource-44",
+          "id": "resource-45",
           "title": "Fountn",
           "url": "https://fountn.design/",
           "description": "collection of design resources, curated by designers",
           "searchText": "fountn https://fountn.design/ collection of design resources, curated by designers other collections other collections"
         },
         {
-          "id": "resource-45",
+          "id": "resource-46",
           "title": "The Product Design Resources Library",
           "url": "https://www.adhamdannaway.com/design-resources",
           "description": "a huge collection of design resources for UX and product designers by Adham Dannaway",
@@ -338,98 +345,98 @@
       "parentTitle": "UI Kits & Component Libraries",
       "items": [
         {
-          "id": "resource-46",
+          "id": "resource-47",
           "title": "Tailwind components",
           "url": "https://tailwindcss.com/plus/ui-blocks",
           "description": "in-depth industry-standard compilation of components",
           "searchText": "tailwind components https://tailwindcss.com/plus/ui-blocks in-depth industry-standard compilation of components ui kits & component libraries ui kits & component libraries"
         },
         {
-          "id": "resource-47",
+          "id": "resource-48",
           "title": "shadcn/ui",
           "url": "https://ui.shadcn.com/",
           "description": "beautifully designed components that you can copy and paste into your apps",
           "searchText": "shadcn/ui https://ui.shadcn.com/ beautifully designed components that you can copy and paste into your apps ui kits & component libraries ui kits & component libraries"
         },
         {
-          "id": "resource-48",
+          "id": "resource-49",
           "title": "Radix UI",
           "url": "https://www.radix-ui.com/",
           "description": "an open-source component library optimized for fast development, easy maintenance, and accessibility",
           "searchText": "radix ui https://www.radix-ui.com/ an open-source component library optimized for fast development, easy maintenance, and accessibility ui kits & component libraries ui kits & component libraries"
         },
         {
-          "id": "resource-49",
+          "id": "resource-50",
           "title": "Elastic UI",
           "url": "https://eui.elastic.co/#/",
           "description": "design library in use at Elastic to build internal products that need to share our aesthetics",
           "searchText": "elastic ui https://eui.elastic.co/#/ design library in use at elastic to build internal products that need to share our aesthetics ui kits & component libraries ui kits & component libraries"
         },
         {
-          "id": "resource-50",
+          "id": "resource-51",
           "title": "Material Design/Components",
           "url": "https://m3.material.io/components",
           "description": "Google's interactive building blocks for creating a user interface",
           "searchText": "material design/components https://m3.material.io/components google's interactive building blocks for creating a user interface ui kits & component libraries ui kits & component libraries"
         },
         {
-          "id": "resource-51",
+          "id": "resource-52",
           "title": "Fluent UI/Components",
           "url": "https://react.fluentui.dev/?path=/docs/concepts-introduction--docs",
           "description": "Microsoft's component library (react)",
           "searchText": "fluent ui/components https://react.fluentui.dev/?path=/docs/concepts-introduction--docs microsoft's component library (react) ui kits & component libraries ui kits & component libraries"
         },
         {
-          "id": "resource-52",
+          "id": "resource-53",
           "title": "Nuxt UI",
           "url": "https://ui.nuxt.com",
           "description": "a UI library for building modern web apps, powered by Vue.js and Tailwind CSS, designed for simplicity and flexibility",
           "searchText": "nuxt ui https://ui.nuxt.com a ui library for building modern web apps, powered by vue.js and tailwind css, designed for simplicity and flexibility ui kits & component libraries ui kits & component libraries"
         },
         {
-          "id": "resource-53",
+          "id": "resource-54",
           "title": "Untitled UI",
           "url": "https://www.untitledui.com/",
           "description": "the largest UI kit and design system for Figma",
           "searchText": "untitled ui https://www.untitledui.com/ the largest ui kit and design system for figma ui kits & component libraries ui kits & component libraries"
         },
         {
-          "id": "resource-54",
+          "id": "resource-55",
           "title": "Preline UI",
           "url": "https://preline.co/",
           "description": "an open-source Tailwind CSS components library",
           "searchText": "preline ui https://preline.co/ an open-source tailwind css components library ui kits & component libraries ui kits & component libraries"
         },
         {
-          "id": "resource-55",
+          "id": "resource-56",
           "title": "React Bits",
           "url": "https://reactbits.dev/get-started/index",
           "description": "React components for creative developers",
           "searchText": "react bits https://reactbits.dev/get-started/index react components for creative developers ui kits & component libraries ui kits & component libraries"
         },
         {
-          "id": "resource-56",
+          "id": "resource-57",
           "title": "Flowbase",
           "url": "https://www.flowbase.co/",
           "description": "the world's largest premium library of Webflow, Figma & Framer components and tools. Build better, faster with Flowbase",
           "searchText": "flowbase https://www.flowbase.co/ the world's largest premium library of webflow, figma & framer components and tools. build better, faster with flowbase ui kits & component libraries ui kits & component libraries"
         },
         {
-          "id": "resource-57",
+          "id": "resource-58",
           "title": "Clonify",
           "url": "https://clonify.io/",
           "description": "a powerful library of Framer and Figma assets to build stunning websites faster",
           "searchText": "clonify https://clonify.io/ a powerful library of framer and figma assets to build stunning websites faster ui kits & component libraries ui kits & component libraries"
         },
         {
-          "id": "resource-58",
+          "id": "resource-59",
           "title": "Atomize Design System",
           "url": "https://atomizedesign.com/",
           "description": "pixel-perfect UI components and multi-brand theme support",
           "searchText": "atomize design system https://atomizedesign.com/ pixel-perfect ui components and multi-brand theme support ui kits & component libraries ui kits & component libraries"
         },
         {
-          "id": "resource-59",
+          "id": "resource-60",
           "title": "Nova",
           "url": "https://novaui.design/",
           "description": "a complete solution for Framer & Figma, offering all the resources needed from concept to launch",
@@ -443,91 +450,91 @@
       "parentTitle": "Colors & Palettes",
       "items": [
         {
-          "id": "resource-60",
+          "id": "resource-61",
           "title": "Coolors",
           "url": "https://coolors.co/",
           "description": "generate or browse beautiful color combinations for your designs",
           "searchText": "coolors https://coolors.co/ generate or browse beautiful color combinations for your designs colors & palettes colors & palettes"
         },
         {
-          "id": "resource-61",
+          "id": "resource-62",
           "title": "Randoma11y",
           "url": "https://randoma11y.com/",
           "description": "an endless collection of accessible color combos",
           "searchText": "randoma11y https://randoma11y.com/ an endless collection of accessible color combos colors & palettes colors & palettes"
         },
         {
-          "id": "resource-62",
+          "id": "resource-63",
           "title": "MyMind",
           "url": "https://access.mymind.com/colors",
           "description": "a collection of unique color combinations for your design projects",
           "searchText": "mymind https://access.mymind.com/colors a collection of unique color combinations for your design projects colors & palettes colors & palettes"
         },
         {
-          "id": "resource-63",
+          "id": "resource-64",
           "title": "Color Box",
           "url": "https://colorbox.io/",
           "description": "generate, preview, and organize color palettes",
           "searchText": "color box https://colorbox.io/ generate, preview, and organize color palettes colors & palettes colors & palettes"
         },
         {
-          "id": "resource-64",
+          "id": "resource-65",
           "title": "Colorsinspo",
           "url": "https://colorsinspo.com/",
           "description": "an all-in-one resource to find everything about colors with extreme ease",
           "searchText": "colorsinspo https://colorsinspo.com/ an all-in-one resource to find everything about colors with extreme ease colors & palettes colors & palettes"
         },
         {
-          "id": "resource-65",
+          "id": "resource-66",
           "title": "Color Hunt",
           "url": "https://colorhunt.co/",
           "description": "hand-picked color palettes",
           "searchText": "color hunt https://colorhunt.co/ hand-picked color palettes colors & palettes colors & palettes"
         },
         {
-          "id": "resource-66",
+          "id": "resource-67",
           "title": "Happy Hues",
           "url": "https://www.happyhues.co/",
           "description": "a color palette inspiration site that acts as a real-world example of how the colors could be used in your design project",
           "searchText": "happy hues https://www.happyhues.co/ a color palette inspiration site that acts as a real-world example of how the colors could be used in your design project colors & palettes colors & palettes"
         },
         {
-          "id": "resource-67",
+          "id": "resource-68",
           "title": "Goodpalette",
           "url": "https://goodpalette.io/ed330e-3cc3de-b3adab",
           "description": "a curated color palette generator that provides aesthetically pleasing color combinations",
           "searchText": "goodpalette https://goodpalette.io/ed330e-3cc3de-b3adab a curated color palette generator that provides aesthetically pleasing color combinations colors & palettes colors & palettes"
         },
         {
-          "id": "resource-68",
+          "id": "resource-69",
           "title": "Tone",
           "url": "https://t-o-n-e.com/",
           "description": "Color Inspiration - explores natural color schemes of beautiful places on Earth through photography",
           "searchText": "tone https://t-o-n-e.com/ color inspiration - explores natural color schemes of beautiful places on earth through photography colors & palettes colors & palettes"
         },
         {
-          "id": "resource-69",
+          "id": "resource-70",
           "title": "Adobe Color",
           "url": "https://color.adobe.com/",
           "description": "gives you the power to extract a beautiful gradient from any image you choose",
           "searchText": "adobe color https://color.adobe.com/ gives you the power to extract a beautiful gradient from any image you choose colors & palettes colors & palettes"
         },
         {
-          "id": "resource-70",
+          "id": "resource-71",
           "title": "Pigment by ShapeFactory",
           "url": "https://pigment.shapefactory.co/",
           "description": "a unique way to generate fresh and vibrant colors based on lighting and pigment, instead of math",
           "searchText": "pigment by shapefactory https://pigment.shapefactory.co/ a unique way to generate fresh and vibrant colors based on lighting and pigment, instead of math colors & palettes colors & palettes"
         },
         {
-          "id": "resource-71",
+          "id": "resource-72",
           "title": "🤖 AI colors",
           "url": "https://www.bairesdev.com/tools/ai-colors",
           "description": "create cool and unique color palettes with an AI-powered color palette generator",
           "searchText": "🤖 ai colors https://www.bairesdev.com/tools/ai-colors create cool and unique color palettes with an ai-powered color palette generator colors & palettes colors & palettes"
         },
         {
-          "id": "resource-72",
+          "id": "resource-73",
           "title": "🤖 Palette Maker",
           "url": "https://palettemaker.com/",
           "description": "create unique color schemes with AI and see them come to life in real design examples",
@@ -541,98 +548,98 @@
       "parentTitle": "Typography (Fonts, Pairing, Generators)",
       "items": [
         {
-          "id": "resource-73",
+          "id": "resource-74",
           "title": "Typescale",
           "url": "https://typescale.com/",
           "description": "a simple tool that allows you to preview and adjust typography scales with different fonts and ratios",
           "searchText": "typescale https://typescale.com/ a simple tool that allows you to preview and adjust typography scales with different fonts and ratios typography (fonts, pairing, generators) typography (fonts, pairing, generators)"
         },
         {
-          "id": "resource-74",
+          "id": "resource-75",
           "title": "Typespiration",
           "url": "https://typespiration.com/",
           "description": "a complete guide to matching typefaces, styling techniques, improving readability, and more",
           "searchText": "typespiration https://typespiration.com/ a complete guide to matching typefaces, styling techniques, improving readability, and more typography (fonts, pairing, generators) typography (fonts, pairing, generators)"
         },
         {
-          "id": "resource-75",
+          "id": "resource-76",
           "title": "Google Fonts",
           "url": "https://fonts.google.com/",
           "description": "free to use fonts repository by google",
           "searchText": "google fonts https://fonts.google.com/ free to use fonts repository by google typography (fonts, pairing, generators) typography (fonts, pairing, generators)"
         },
         {
-          "id": "resource-76",
+          "id": "resource-77",
           "title": "Adobe Fonts",
           "url": "https://fonts.adobe.com/",
           "description": "premium paid fonts repository by Adobe",
           "searchText": "adobe fonts https://fonts.adobe.com/ premium paid fonts repository by adobe typography (fonts, pairing, generators) typography (fonts, pairing, generators)"
         },
         {
-          "id": "resource-77",
+          "id": "resource-78",
           "title": "Free Faces Gallery",
           "url": "https://www.freefaces.gallery/",
           "description": "a curated collection of typefaces that are available under a variety of free licenses somewhere on the interwebs",
           "searchText": "free faces gallery https://www.freefaces.gallery/ a curated collection of typefaces that are available under a variety of free licenses somewhere on the interwebs typography (fonts, pairing, generators) typography (fonts, pairing, generators)"
         },
         {
-          "id": "resource-78",
+          "id": "resource-79",
           "title": "Collletttivo",
           "url": "https://www.collletttivo.it/",
           "description": "an open-source type foundry and a network of people promoting the practice of type design through mutual exchange and collaboration",
           "searchText": "collletttivo https://www.collletttivo.it/ an open-source type foundry and a network of people promoting the practice of type design through mutual exchange and collaboration typography (fonts, pairing, generators) typography (fonts, pairing, generators)"
         },
         {
-          "id": "resource-79",
+          "id": "resource-80",
           "title": "UNCUT.wtf",
           "url": "https://uncut.wtf/",
           "description": "a free typeface catalogue, focusing on somewhat contemporary type. There are currently 163 typefaces featured",
           "searchText": "uncut.wtf https://uncut.wtf/ a free typeface catalogue, focusing on somewhat contemporary type. there are currently 163 typefaces featured typography (fonts, pairing, generators) typography (fonts, pairing, generators)"
         },
         {
-          "id": "resource-80",
+          "id": "resource-81",
           "title": "Nerd Fonts",
           "url": "https://www.nerdfonts.com/font-downloads",
           "description": "advanced fonts for programmers with special glyphs",
           "searchText": "nerd fonts https://www.nerdfonts.com/font-downloads advanced fonts for programmers with special glyphs typography (fonts, pairing, generators) typography (fonts, pairing, generators)"
         },
         {
-          "id": "resource-81",
+          "id": "resource-82",
           "title": "Typefaces.today",
           "url": "https://typefaces.today/",
           "description": "handpicked typefaces for your creative projects",
           "searchText": "typefaces.today https://typefaces.today/ handpicked typefaces for your creative projects typography (fonts, pairing, generators) typography (fonts, pairing, generators)"
         },
         {
-          "id": "resource-82",
+          "id": "resource-83",
           "title": "Fontshare",
           "url": "https://www.fontshare.com/",
           "description": "a free fonts service from the Indian Type Foundry (ITF), making quality fonts accessible to all",
           "searchText": "fontshare https://www.fontshare.com/ a free fonts service from the indian type foundry (itf), making quality fonts accessible to all typography (fonts, pairing, generators) typography (fonts, pairing, generators)"
         },
         {
-          "id": "resource-83",
+          "id": "resource-84",
           "title": "DaFont",
           "url": "https://www.dafont.com/",
           "description": "archive of freely downloadable fonts",
           "searchText": "dafont https://www.dafont.com/ archive of freely downloadable fonts typography (fonts, pairing, generators) typography (fonts, pairing, generators)"
         },
         {
-          "id": "resource-84",
+          "id": "resource-85",
           "title": "YouWorkForThem",
           "url": "https://www.youworkforthem.com/",
           "description": "free high-quality fonts and graphics",
           "searchText": "youworkforthem https://www.youworkforthem.com/ free high-quality fonts and graphics typography (fonts, pairing, generators) typography (fonts, pairing, generators)"
         },
         {
-          "id": "resource-85",
+          "id": "resource-86",
           "title": "Type Department",
           "url": "https://type-department.com/",
           "description": "provides designers and brands with high-quality fonts that ignite design solutions and command attention",
           "searchText": "type department https://type-department.com/ provides designers and brands with high-quality fonts that ignite design solutions and command attention typography (fonts, pairing, generators) typography (fonts, pairing, generators)"
         },
         {
-          "id": "resource-86",
+          "id": "resource-87",
           "title": "🤖 Typograph Studio",
           "url": "https://typograph.studio/en",
           "description": "AI-powered type-design co-pilot",
@@ -646,77 +653,77 @@
       "parentTitle": "Icons & Illustrations (SVGs, Packs, Tools)",
       "items": [
         {
-          "id": "resource-87",
+          "id": "resource-88",
           "title": "coolshapes",
           "url": "https://coolshap.es/",
           "description": "100+ abstract shapes with cool grainy gradient",
           "searchText": "coolshapes https://coolshap.es/ 100+ abstract shapes with cool grainy gradient icons & illustrations (svgs, packs, tools) icons & illustrations (svgs, packs, tools)"
         },
         {
-          "id": "resource-88",
+          "id": "resource-89",
           "title": "MapSVG",
           "url": "https://mapsvg.com/maps",
           "description": "download a free SVG map of any country in the world, free for commercial use",
           "searchText": "mapsvg https://mapsvg.com/maps download a free svg map of any country in the world, free for commercial use icons & illustrations (svgs, packs, tools) icons & illustrations (svgs, packs, tools)"
         },
         {
-          "id": "resource-89",
+          "id": "resource-90",
           "title": "Open Doodles",
           "url": "https://www.opendoodles.com/",
           "description": "a library of sketchy illustrations of people free for personal and commercial use",
           "searchText": "open doodles https://www.opendoodles.com/ a library of sketchy illustrations of people free for personal and commercial use icons & illustrations (svgs, packs, tools) icons & illustrations (svgs, packs, tools)"
         },
         {
-          "id": "resource-90",
+          "id": "resource-91",
           "title": "SVG Doodles",
           "url": "https://svgdoodles.com/",
           "description": "a free collection of different editable SVGs to spice up your online and offline designs",
           "searchText": "svg doodles https://svgdoodles.com/ a free collection of different editable svgs to spice up your online and offline designs icons & illustrations (svgs, packs, tools) icons & illustrations (svgs, packs, tools)"
         },
         {
-          "id": "resource-91",
+          "id": "resource-92",
           "title": "unDraw",
           "url": "https://undraw.co/illustrations",
           "description": "free open-source SVG illustrations",
           "searchText": "undraw https://undraw.co/illustrations free open-source svg illustrations icons & illustrations (svgs, packs, tools) icons & illustrations (svgs, packs, tools)"
         },
         {
-          "id": "resource-92",
+          "id": "resource-93",
           "title": "DrawKit",
           "url": "https://www.drawkit.com/",
           "description": "hand-drawn 2D & 3D illustrations, icons and animations",
           "searchText": "drawkit https://www.drawkit.com/ hand-drawn 2d & 3d illustrations, icons and animations icons & illustrations (svgs, packs, tools) icons & illustrations (svgs, packs, tools)"
         },
         {
-          "id": "resource-93",
+          "id": "resource-94",
           "title": "ManyPixels",
           "url": "https://www.manypixels.co/gallery",
           "description": "a royalty-free illustrations gallery",
           "searchText": "manypixels https://www.manypixels.co/gallery a royalty-free illustrations gallery icons & illustrations (svgs, packs, tools) icons & illustrations (svgs, packs, tools)"
         },
         {
-          "id": "resource-94",
+          "id": "resource-95",
           "title": "Shapes",
           "url": "https://shapes.framer.website/",
           "description": "SVG shapes that you can easily copy and paste into your designs",
           "searchText": "shapes https://shapes.framer.website/ svg shapes that you can easily copy and paste into your designs icons & illustrations (svgs, packs, tools) icons & illustrations (svgs, packs, tools)"
         },
         {
-          "id": "resource-95",
+          "id": "resource-96",
           "title": "Absurd Design",
           "url": "https://absurd.design/",
           "description": "free Surrealist Illustrations",
           "searchText": "absurd design https://absurd.design/ free surrealist illustrations icons & illustrations (svgs, packs, tools) icons & illustrations (svgs, packs, tools)"
         },
         {
-          "id": "resource-96",
+          "id": "resource-97",
           "title": "Spectrum",
           "url": "https://spectrums.framer.website/",
           "description": "free vector shapes",
           "searchText": "spectrum https://spectrums.framer.website/ free vector shapes icons & illustrations (svgs, packs, tools) icons & illustrations (svgs, packs, tools)"
         },
         {
-          "id": "resource-97",
+          "id": "resource-98",
           "title": "Illustration.lol",
           "url": "https://www.illustration.lol/",
           "description": "a curated collection of editorial illustrations and images from illustrators around the world",
@@ -730,168 +737,168 @@
       "parentTitle": "Icons & Illustrations (SVGs, Packs, Tools)",
       "items": [
         {
-          "id": "resource-98",
+          "id": "resource-99",
           "title": "Remix Icon",
           "url": "https://remixicon.com/",
           "description": "open-source neutral-style system symbols elaborately crafted for designers and developers",
           "searchText": "remix icon https://remixicon.com/ open-source neutral-style system symbols elaborately crafted for designers and developers icon sets icons & illustrations (svgs, packs, tools)"
         },
         {
-          "id": "resource-99",
+          "id": "resource-100",
           "title": "pqoqubbw/icons",
           "url": "https://icons.pqoqubbw.dev/",
           "description": "beautifully crafted _animated_ icons",
           "searchText": "pqoqubbw/icons https://icons.pqoqubbw.dev/ beautifully crafted _animated_ icons icon sets icons & illustrations (svgs, packs, tools)"
         },
         {
-          "id": "resource-100",
+          "id": "resource-101",
           "title": "Font Awesome",
           "url": "https://fontawesome.com/search",
           "description": "Font Awesome is a font and icon toolkit based on CSS and Less",
           "searchText": "font awesome https://fontawesome.com/search font awesome is a font and icon toolkit based on css and less icon sets icons & illustrations (svgs, packs, tools)"
         },
         {
-          "id": "resource-101",
+          "id": "resource-102",
           "title": "3dicons",
           "url": "https://3dicons.co/",
           "description": "open-source & free premium 3D icons",
           "searchText": "3dicons https://3dicons.co/ open-source & free premium 3d icons icon sets icons & illustrations (svgs, packs, tools)"
         },
         {
-          "id": "resource-102",
+          "id": "resource-103",
           "title": "Streamline",
           "url": "https://www.streamlinehq.com/",
           "description": "free PNG & SVG icons",
           "searchText": "streamline https://www.streamlinehq.com/ free png & svg icons icon sets icons & illustrations (svgs, packs, tools)"
         },
         {
-          "id": "resource-103",
+          "id": "resource-104",
           "title": "Game Icons",
           "url": "https://game-icons.net/",
           "description": "a collection of free game icons",
           "searchText": "game icons https://game-icons.net/ a collection of free game icons icon sets icons & illustrations (svgs, packs, tools)"
         },
         {
-          "id": "resource-104",
+          "id": "resource-105",
           "title": "Lucide",
           "url": "https://lucide.dev/icons/",
           "description": "icon toolkit",
           "searchText": "lucide https://lucide.dev/icons/ icon toolkit icon sets icons & illustrations (svgs, packs, tools)"
         },
         {
-          "id": "resource-105",
+          "id": "resource-106",
           "title": "Radix Icons",
           "url": "https://www.radix-ui.com/icons",
           "description": "a crisp set of 15×15 icons",
           "searchText": "radix icons https://www.radix-ui.com/icons a crisp set of 15×15 icons icon sets icons & illustrations (svgs, packs, tools)"
         },
         {
-          "id": "resource-106",
+          "id": "resource-107",
           "title": "Feather",
           "url": "https://feathericons.com/",
           "description": "simply beautiful open-source icons",
           "searchText": "feather https://feathericons.com/ simply beautiful open-source icons icon sets icons & illustrations (svgs, packs, tools)"
         },
         {
-          "id": "resource-107",
+          "id": "resource-108",
           "title": "Material Symbols",
           "url": "https://fonts.google.com/icons",
           "description": "Google's Material Design icons pack",
           "searchText": "material symbols https://fonts.google.com/icons google's material design icons pack icon sets icons & illustrations (svgs, packs, tools)"
         },
         {
-          "id": "resource-108",
+          "id": "resource-109",
           "title": "Weather Icons",
           "url": "https://erikflowers.github.io/weather-icons/",
           "description": "icon font and CSS with 222 weather-themed icons, ready to be dropped right into Bootstrap, or any project that needs high-quality weather, maritime, and meteorological-based icons",
           "searchText": "weather icons https://erikflowers.github.io/weather-icons/ icon font and css with 222 weather-themed icons, ready to be dropped right into bootstrap, or any project that needs high-quality weather, maritime, and meteorological-based icons icon sets icons & illustrations (svgs, packs, tools)"
         },
         {
-          "id": "resource-109",
+          "id": "resource-110",
           "title": "Icones",
           "url": "https://icones.js.org",
           "description": "a powerful icon explorer with over 100,000 icons from various libraries, supporting on-demand import and easy customization",
           "searchText": "icones https://icones.js.org a powerful icon explorer with over 100,000 icons from various libraries, supporting on-demand import and easy customization icon sets icons & illustrations (svgs, packs, tools)"
         },
         {
-          "id": "resource-110",
+          "id": "resource-111",
           "title": "Iconmonstr",
           "url": "https://iconmonstr.com/",
           "description": "free simple icons collection",
           "searchText": "iconmonstr https://iconmonstr.com/ free simple icons collection icon sets icons & illustrations (svgs, packs, tools)"
         },
         {
-          "id": "resource-111",
+          "id": "resource-112",
           "title": "Iconoir",
           "url": "https://iconoir.com/",
           "description": "a high-quality selection of free icons",
           "searchText": "iconoir https://iconoir.com/ a high-quality selection of free icons icon sets icons & illustrations (svgs, packs, tools)"
         },
         {
-          "id": "resource-112",
+          "id": "resource-113",
           "title": "Iconhub",
           "url": "https://iconhub.io/",
           "description": "diverse Icon set to complete your awesome design",
           "searchText": "iconhub https://iconhub.io/ diverse icon set to complete your awesome design icon sets icons & illustrations (svgs, packs, tools)"
         },
         {
-          "id": "resource-113",
+          "id": "resource-114",
           "title": "OpenMoji",
           "url": "https://openmoji.org/",
           "description": "open-source emojis for designers, developers",
           "searchText": "openmoji https://openmoji.org/ open-source emojis for designers, developers icon sets icons & illustrations (svgs, packs, tools)"
         },
         {
-          "id": "resource-114",
+          "id": "resource-115",
           "title": "Tabler Icons",
           "url": "https://tabler.io/icons",
           "description": "free and open-source icons designed to make your website or app attractive, visually consistent, and simply beautiful",
           "searchText": "tabler icons https://tabler.io/icons free and open-source icons designed to make your website or app attractive, visually consistent, and simply beautiful icon sets icons & illustrations (svgs, packs, tools)"
         },
         {
-          "id": "resource-115",
+          "id": "resource-116",
           "title": "Phosphor",
           "url": "https://phosphoricons.com/",
           "description": "a flexible icon family for interfaces, diagrams, presentations",
           "searchText": "phosphor https://phosphoricons.com/ a flexible icon family for interfaces, diagrams, presentations icon sets icons & illustrations (svgs, packs, tools)"
         },
         {
-          "id": "resource-116",
+          "id": "resource-117",
           "title": "Hugeicons",
           "url": "https://hugeicons.com/",
           "description": "a modern icon library designed for designers and developers who need scalable, customizable, and visually balanced icons",
           "searchText": "hugeicons https://hugeicons.com/ a modern icon library designed for designers and developers who need scalable, customizable, and visually balanced icons icon sets icons & illustrations (svgs, packs, tools)"
         },
         {
-          "id": "resource-117",
+          "id": "resource-118",
           "title": "Heroicons",
           "url": "https://heroicons.com/",
           "description": "hand-crafted SVG icons, by the makers of Tailwind CSS",
           "searchText": "heroicons https://heroicons.com/ hand-crafted svg icons, by the makers of tailwind css icon sets icons & illustrations (svgs, packs, tools)"
         },
         {
-          "id": "resource-118",
+          "id": "resource-119",
           "title": "Griddy Icons",
           "url": "https://griddyicons.com/",
           "description": "a free open-source icon family with a unique utilitarian vibe",
           "searchText": "griddy icons https://griddyicons.com/ a free open-source icon family with a unique utilitarian vibe icon sets icons & illustrations (svgs, packs, tools)"
         },
         {
-          "id": "resource-119",
+          "id": "resource-120",
           "title": "🤖 Icons8",
           "url": "https://icons8.com/illustration-generator",
           "description": "AI Generator that makes series of illustrations and icons in the same style",
           "searchText": "🤖 icons8 https://icons8.com/illustration-generator ai generator that makes series of illustrations and icons in the same style icon sets icons & illustrations (svgs, packs, tools)"
         },
         {
-          "id": "resource-120",
+          "id": "resource-121",
           "title": "🤖 AI Emojis",
           "url": "https://www.emojis.com/",
           "description": "turn your ideas into emojis with AI",
           "searchText": "🤖 ai emojis https://www.emojis.com/ turn your ideas into emojis with ai icon sets icons & illustrations (svgs, packs, tools)"
         },
         {
-          "id": "resource-121",
+          "id": "resource-122",
           "title": "🤖 The Thiings Collection",
           "url": "https://www.thiings.co/things",
           "description": "a collection with 2800+ 3D AI generated emojis",
@@ -905,161 +912,161 @@
       "parentTitle": "Images & Backgrounds",
       "items": [
         {
-          "id": "resource-122",
+          "id": "resource-123",
           "title": "Unsplash",
           "url": "https://unsplash.com/",
           "description": "a wide variety of high-quality photos contributed by photographers",
           "searchText": "unsplash https://unsplash.com/ a wide variety of high-quality photos contributed by photographers images & backgrounds images & backgrounds"
         },
         {
-          "id": "resource-123",
+          "id": "resource-124",
           "title": "Pexels",
           "url": "https://www.pexels.com/",
           "description": "free stock photos and videos",
           "searchText": "pexels https://www.pexels.com/ free stock photos and videos images & backgrounds images & backgrounds"
         },
         {
-          "id": "resource-124",
+          "id": "resource-125",
           "title": "Pixabay",
           "url": "https://pixabay.com/",
           "description": "photos, illustrations, vectors, and videos available",
           "searchText": "pixabay https://pixabay.com/ photos, illustrations, vectors, and videos available images & backgrounds images & backgrounds"
         },
         {
-          "id": "resource-125",
+          "id": "resource-126",
           "title": "Burst by Shopify",
           "url": "https://www.shopify.com/stock-photos",
           "description": "business-oriented images, especially for e-commerce",
           "searchText": "burst by shopify https://www.shopify.com/stock-photos business-oriented images, especially for e-commerce images & backgrounds images & backgrounds"
         },
         {
-          "id": "resource-126",
+          "id": "resource-127",
           "title": "Dupe",
           "url": "https://dupephotos.com/",
           "description": "relevant royalty-free imagery submitted by a community of creators that can be used commercially under their license",
           "searchText": "dupe https://dupephotos.com/ relevant royalty-free imagery submitted by a community of creators that can be used commercially under their license images & backgrounds images & backgrounds"
         },
         {
-          "id": "resource-127",
+          "id": "resource-128",
           "title": "Kaboompics",
           "url": "https://kaboompics.com/",
           "description": "authentic and always consistent free stock photos",
           "searchText": "kaboompics https://kaboompics.com/ authentic and always consistent free stock photos images & backgrounds images & backgrounds"
         },
         {
-          "id": "resource-128",
+          "id": "resource-129",
           "title": "Picjumbo",
           "url": "https://picjumbo.com/",
           "description": "free images, backgrounds, and free photos for your projects",
           "searchText": "picjumbo https://picjumbo.com/ free images, backgrounds, and free photos for your projects images & backgrounds images & backgrounds"
         },
         {
-          "id": "resource-129",
+          "id": "resource-130",
           "title": "Barnimages",
           "url": "https://barnimages.com/",
           "description": "free stock photos that are high-quality and royalty-free",
           "searchText": "barnimages https://barnimages.com/ free stock photos that are high-quality and royalty-free images & backgrounds images & backgrounds"
         },
         {
-          "id": "resource-130",
+          "id": "resource-131",
           "title": "Openverse",
           "url": "https://openverse.org/",
           "description": "an extensive library of free stock photos, images, and audio, available for free use",
           "searchText": "openverse https://openverse.org/ an extensive library of free stock photos, images, and audio, available for free use images & backgrounds images & backgrounds"
         },
         {
-          "id": "resource-131",
+          "id": "resource-132",
           "title": "Gratisography",
           "url": "https://gratisography.com/",
           "description": "royalty-free HD stock photos and images",
           "searchText": "gratisography https://gratisography.com/ royalty-free hd stock photos and images images & backgrounds images & backgrounds"
         },
         {
-          "id": "resource-132",
+          "id": "resource-133",
           "title": "Shotstash",
           "url": "https://shotstash.com/",
           "description": "free stock photos for creative professionals",
           "searchText": "shotstash https://shotstash.com/ free stock photos for creative professionals images & backgrounds images & backgrounds"
         },
         {
-          "id": "resource-133",
+          "id": "resource-134",
           "title": "FOCA",
           "url": "https://focastock.com/",
           "description": "free stock photos for commercial use; design and create for free with FOCA Canvas",
           "searchText": "foca https://focastock.com/ free stock photos for commercial use; design and create for free with foca canvas images & backgrounds images & backgrounds"
         },
         {
-          "id": "resource-134",
+          "id": "resource-135",
           "title": "Life of Pix",
           "url": "https://www.lifeofpix.com/",
           "description": "free high resolution photography",
           "searchText": "life of pix https://www.lifeofpix.com/ free high resolution photography images & backgrounds images & backgrounds"
         },
         {
-          "id": "resource-135",
+          "id": "resource-136",
           "title": "Shader Gradient",
           "url": "https://www.shadergradient.co/",
           "description": "create beautiful, moving gradients (available on Figma, Framer, and as React component)",
           "searchText": "shader gradient https://www.shadergradient.co/ create beautiful, moving gradients (available on figma, framer, and as react component) images & backgrounds images & backgrounds"
         },
         {
-          "id": "resource-136",
+          "id": "resource-137",
           "title": "RD Tool",
           "url": "https://www.karlsims.com/rdtool.html",
           "description": "web application to experiment with reaction-diffusion simulations",
           "searchText": "rd tool https://www.karlsims.com/rdtool.html web application to experiment with reaction-diffusion simulations images & backgrounds images & backgrounds"
         },
         {
-          "id": "resource-137",
+          "id": "resource-138",
           "title": "🤖 Lummi",
           "url": "https://www.lummi.ai/s/photos/guitar",
           "description": "a collection of unique, royalty-free AI stock photos, illustrations, and 3D",
           "searchText": "🤖 lummi https://www.lummi.ai/s/photos/guitar a collection of unique, royalty-free ai stock photos, illustrations, and 3d images & backgrounds images & backgrounds"
         },
         {
-          "id": "resource-138",
+          "id": "resource-139",
           "title": "🤖 Midjourney",
           "url": "https://www.midjourney.com/home",
           "description": "AI image generation",
           "searchText": "🤖 midjourney https://www.midjourney.com/home ai image generation images & backgrounds images & backgrounds"
         },
         {
-          "id": "resource-139",
+          "id": "resource-140",
           "title": "🤖 Dall-E",
           "url": "https://openart.ai/home",
           "description": "AI image generation",
           "searchText": "🤖 dall-e https://openart.ai/home ai image generation images & backgrounds images & backgrounds"
         },
         {
-          "id": "resource-140",
+          "id": "resource-141",
           "title": "🤖 Stable Diffusion",
           "url": "https://stability.ai/stable-image",
           "description": "AI image generation",
           "searchText": "🤖 stable diffusion https://stability.ai/stable-image ai image generation images & backgrounds images & backgrounds"
         },
         {
-          "id": "resource-141",
+          "id": "resource-142",
           "title": "🤖 Adobe Firefly",
           "url": "https://www.adobe.com/products/firefly.html",
           "description": "AI image generation",
           "searchText": "🤖 adobe firefly https://www.adobe.com/products/firefly.html ai image generation images & backgrounds images & backgrounds"
         },
         {
-          "id": "resource-142",
+          "id": "resource-143",
           "title": "🤖 Runway ML",
           "url": "https://runwayml.com/",
           "description": "a platform to create AI-generated images and videos",
           "searchText": "🤖 runway ml https://runwayml.com/ a platform to create ai-generated images and videos images & backgrounds images & backgrounds"
         },
         {
-          "id": "resource-143",
+          "id": "resource-144",
           "title": "🤖 Background Supply",
           "url": "https://www.background.supply/",
           "description": "AI-generated backgrounds for your next design project",
           "searchText": "🤖 background supply https://www.background.supply/ ai-generated backgrounds for your next design project images & backgrounds images & backgrounds"
         },
         {
-          "id": "resource-144",
+          "id": "resource-145",
           "title": "🤖 Grainient",
           "url": "https://grainient.supply/",
           "description": "offers 1000+ awesome gradients, noisy textured, and AI-generated backgrounds",
@@ -1073,102 +1080,109 @@
       "parentTitle": "Templates (Landing Pages, Presentations, Mockups)",
       "items": [
         {
-          "id": "resource-145",
+          "id": "resource-146",
           "title": "Mockuuups Studio",
           "url": "https://mockuuups.studio/",
           "description": "drag-and-drop tool for creating beautiful app previews or any marketing materials. Easily insert your screenshot into device mockups for free",
           "searchText": "mockuuups studio https://mockuuups.studio/ drag-and-drop tool for creating beautiful app previews or any marketing materials. easily insert your screenshot into device mockups for free templates (landing pages, presentations, mockups) templates (landing pages, presentations, mockups)"
         },
         {
-          "id": "resource-146",
+          "id": "resource-147",
           "title": "Angle.sh",
           "url": "https://angle.sh",
           "description": "vector device mockups for Sketch, Figma, and XD",
           "searchText": "angle.sh https://angle.sh vector device mockups for sketch, figma, and xd templates (landing pages, presentations, mockups) templates (landing pages, presentations, mockups)"
         },
         {
-          "id": "resource-147",
+          "id": "resource-148",
           "title": "Shots.so",
           "url": "https://shots.so",
           "description": "any mockup that you need. Choose a mockup that suits your needs drag and drop your screenshot, design or any image to get started",
           "searchText": "shots.so https://shots.so any mockup that you need. choose a mockup that suits your needs drag and drop your screenshot, design or any image to get started templates (landing pages, presentations, mockups) templates (landing pages, presentations, mockups)"
         },
         {
-          "id": "resource-148",
+          "id": "resource-149",
           "title": "Mockupworld",
           "url": "https://www.mockupworld.co/",
           "description": "source of photo-realistic free PSD Mockups online",
           "searchText": "mockupworld https://www.mockupworld.co/ source of photo-realistic free psd mockups online templates (landing pages, presentations, mockups) templates (landing pages, presentations, mockups)"
         },
         {
-          "id": "resource-149",
+          "id": "resource-150",
           "title": "Pixeden",
           "url": "https://www.pixeden.com/",
           "description": "exclusive graphic, web, and design assets club (free and paid)",
           "searchText": "pixeden https://www.pixeden.com/ exclusive graphic, web, and design assets club (free and paid) templates (landing pages, presentations, mockups) templates (landing pages, presentations, mockups)"
         },
         {
-          "id": "resource-150",
+          "id": "resource-151",
           "title": "Mockups Design",
           "url": "https://mockups-design.com/",
           "description": "source of free & high-quality mockups",
           "searchText": "mockups design https://mockups-design.com/ source of free & high-quality mockups templates (landing pages, presentations, mockups) templates (landing pages, presentations, mockups)"
         },
         {
-          "id": "resource-151",
+          "id": "resource-152",
           "title": "Mr. Mockup",
           "url": "https://mrmockup.com/free-mockups/",
           "description": "a huge collection of high-quality free mockups for Photoshop",
           "searchText": "mr. mockup https://mrmockup.com/free-mockups/ a huge collection of high-quality free mockups for photoshop templates (landing pages, presentations, mockups) templates (landing pages, presentations, mockups)"
         },
         {
-          "id": "resource-152",
+          "id": "resource-153",
           "title": "LS Graphics",
           "url": "https://www.ls.graphics/",
           "description": "a vast collection of free and premium mockups for Photoshop and Figma",
           "searchText": "ls graphics https://www.ls.graphics/ a vast collection of free and premium mockups for photoshop and figma templates (landing pages, presentations, mockups) templates (landing pages, presentations, mockups)"
         },
         {
-          "id": "resource-153",
+          "id": "resource-154",
           "title": "Mockup Hunt",
           "url": "https://mockuphunt.co/",
           "description": "a huge collection of the best free mockups hand-curated from the most trusted mockup websites",
           "searchText": "mockup hunt https://mockuphunt.co/ a huge collection of the best free mockups hand-curated from the most trusted mockup websites templates (landing pages, presentations, mockups) templates (landing pages, presentations, mockups)"
         },
         {
-          "id": "resource-154",
+          "id": "resource-155",
           "title": "Minimal Mockups",
           "url": "https://www.minimalmockups.com/",
           "description": "free high-quality mockups",
           "searchText": "minimal mockups https://www.minimalmockups.com/ free high-quality mockups templates (landing pages, presentations, mockups) templates (landing pages, presentations, mockups)"
         },
         {
-          "id": "resource-155",
+          "id": "resource-156",
           "title": "Unblast",
           "url": "https://unblast.com/",
           "description": "fine and free design resources made by the world's best designers",
           "searchText": "unblast https://unblast.com/ fine and free design resources made by the world's best designers templates (landing pages, presentations, mockups) templates (landing pages, presentations, mockups)"
         },
         {
-          "id": "resource-156",
+          "id": "resource-157",
           "title": "Flyerwrk",
           "url": "https://www.flyerwrk.com/en-com/collections/freebies",
           "description": "mockup freebies collection",
           "searchText": "flyerwrk https://www.flyerwrk.com/en-com/collections/freebies mockup freebies collection templates (landing pages, presentations, mockups) templates (landing pages, presentations, mockups)"
         },
         {
-          "id": "resource-157",
+          "id": "resource-158",
           "title": "Mockup Cloud",
           "url": "https://www.mockupcloud.com/",
           "description": "premium & free mockup templates",
           "searchText": "mockup cloud https://www.mockupcloud.com/ premium & free mockup templates templates (landing pages, presentations, mockups) templates (landing pages, presentations, mockups)"
         },
         {
-          "id": "resource-158",
+          "id": "resource-159",
           "title": "Akoya",
           "url": "https://akoyamockups.com/",
           "description": "photorealistic mockups",
           "searchText": "akoya https://akoyamockups.com/ photorealistic mockups templates (landing pages, presentations, mockups) templates (landing pages, presentations, mockups)"
+        },
+        {
+          "id": "resource-160",
+          "title": "Maneken",
+          "url": "https://maneken.app/",
+          "description": "the browser powered mockup editor",
+          "searchText": "maneken https://maneken.app/ the browser powered mockup editor templates (landing pages, presentations, mockups) templates (landing pages, presentations, mockups)"
         }
       ]
     },
@@ -1178,154 +1192,154 @@
       "parentTitle": "Production Tools (Gradients, Shadows, Converters, GenAI)",
       "items": [
         {
-          "id": "resource-159",
+          "id": "resource-161",
           "title": "TinyPNG",
           "url": "https://tinypng.com/",
           "description": "the online compressor empowers you to optimize your images easily",
           "searchText": "tinypng https://tinypng.com/ the online compressor empowers you to optimize your images easily production tools (gradients, shadows, converters, genai) production tools (gradients, shadows, converters, genai)"
         },
         {
-          "id": "resource-160",
+          "id": "resource-162",
           "title": "Tailwind CSS Color Generator | UI Colors",
           "url": "https://uicolors.app/generate",
           "description": "generate, edit, save, and share Tailwind CSS color shades based on a given hex code or HSL color",
           "searchText": "tailwind css color generator | ui colors https://uicolors.app/generate generate, edit, save, and share tailwind css color shades based on a given hex code or hsl color production tools (gradients, shadows, converters, genai) production tools (gradients, shadows, converters, genai)"
         },
         {
-          "id": "resource-161",
+          "id": "resource-163",
           "title": "Boring Avatars",
           "url": "https://boringavatars.com/",
           "description": "an open-source React library that generates custom, SVG-based user avatars",
           "searchText": "boring avatars https://boringavatars.com/ an open-source react library that generates custom, svg-based user avatars production tools (gradients, shadows, converters, genai) production tools (gradients, shadows, converters, genai)"
         },
         {
-          "id": "resource-162",
+          "id": "resource-164",
           "title": "DiceBear Avatars",
           "url": "https://dicebear.com/",
           "description": "a free avatar library offering customizable, SVG-based avatar styles",
           "searchText": "dicebear avatars https://dicebear.com/ a free avatar library offering customizable, svg-based avatar styles production tools (gradients, shadows, converters, genai) production tools (gradients, shadows, converters, genai)"
         },
         {
-          "id": "resource-163",
+          "id": "resource-165",
           "title": "Pacdora",
           "url": "https://www.pacdora.com/",
           "description": "an online packaging design tool that integrates editing, 3D preview, rendering",
           "searchText": "pacdora https://www.pacdora.com/ an online packaging design tool that integrates editing, 3d preview, rendering production tools (gradients, shadows, converters, genai) production tools (gradients, shadows, converters, genai)"
         },
         {
-          "id": "resource-164",
+          "id": "resource-166",
           "title": "Content Core",
           "url": "https://contentcore.xyz/",
           "description": "render unlimited images and videos in your browser on any compatible device",
           "searchText": "content core https://contentcore.xyz/ render unlimited images and videos in your browser on any compatible device production tools (gradients, shadows, converters, genai) production tools (gradients, shadows, converters, genai)"
         },
         {
-          "id": "resource-165",
+          "id": "resource-167",
           "title": "🤖 Vizcom",
           "url": "https://www.vizcom.com/",
           "description": "a new way to design for the real world",
           "searchText": "🤖 vizcom https://www.vizcom.com/ a new way to design for the real world production tools (gradients, shadows, converters, genai) production tools (gradients, shadows, converters, genai)"
         },
         {
-          "id": "resource-166",
+          "id": "resource-168",
           "title": "🤖 Remove.bg",
           "url": "https://www.remove.bg/",
           "description": "instantly removes image backgrounds with AI, perfect for creating transparent images",
           "searchText": "🤖 remove.bg https://www.remove.bg/ instantly removes image backgrounds with ai, perfect for creating transparent images production tools (gradients, shadows, converters, genai) production tools (gradients, shadows, converters, genai)"
         },
         {
-          "id": "resource-167",
+          "id": "resource-169",
           "title": "🤖 Topaz",
           "url": "https://www.topazlabs.com/topaz-photo",
           "description": "sharpen, denoise, and upscale your images",
           "searchText": "🤖 topaz https://www.topazlabs.com/topaz-photo sharpen, denoise, and upscale your images production tools (gradients, shadows, converters, genai) production tools (gradients, shadows, converters, genai)"
         },
         {
-          "id": "resource-168",
+          "id": "resource-170",
           "title": "🤖 Vectorizer AI",
           "url": "https://vectorizer.ai/",
           "description": "trace pixels to vectors in full color",
           "searchText": "🤖 vectorizer ai https://vectorizer.ai/ trace pixels to vectors in full color production tools (gradients, shadows, converters, genai) production tools (gradients, shadows, converters, genai)"
         },
         {
-          "id": "resource-169",
+          "id": "resource-171",
           "title": "🤖 Suno",
           "url": "https://suno.com/home",
           "description": "building a future where anyone can make great music",
           "searchText": "🤖 suno https://suno.com/home building a future where anyone can make great music production tools (gradients, shadows, converters, genai) production tools (gradients, shadows, converters, genai)"
         },
         {
-          "id": "resource-170",
+          "id": "resource-172",
           "title": "🤖 Captions",
           "url": "https://www.captions.ai/",
           "description": "creates videos from captions with AI",
           "searchText": "🤖 captions https://www.captions.ai/ creates videos from captions with ai production tools (gradients, shadows, converters, genai) production tools (gradients, shadows, converters, genai)"
         },
         {
-          "id": "resource-171",
+          "id": "resource-173",
           "title": "🤖 Krea",
           "url": "https://www.krea.ai/",
           "description": "generate, edit, and enhance images and videos using powerful AI for free",
           "searchText": "🤖 krea https://www.krea.ai/ generate, edit, and enhance images and videos using powerful ai for free production tools (gradients, shadows, converters, genai) production tools (gradients, shadows, converters, genai)"
         },
         {
-          "id": "resource-172",
+          "id": "resource-174",
           "title": "🤖 Glorify",
           "url": "https://glorify.com/",
           "description": "easily create marketing visuals that turn browsers into buyers",
           "searchText": "🤖 glorify https://glorify.com/ easily create marketing visuals that turn browsers into buyers production tools (gradients, shadows, converters, genai) production tools (gradients, shadows, converters, genai)"
         },
         {
-          "id": "resource-173",
+          "id": "resource-175",
           "title": "🤖 Logome",
           "url": "https://www.logome.ai/",
           "description": "design your stunning brand logo with AI",
           "searchText": "🤖 logome https://www.logome.ai/ design your stunning brand logo with ai production tools (gradients, shadows, converters, genai) production tools (gradients, shadows, converters, genai)"
         },
         {
-          "id": "resource-174",
+          "id": "resource-176",
           "title": "🤖 Mokker",
           "url": "https://mokker.ai/",
           "description": "AI background for product photos",
           "searchText": "🤖 mokker https://mokker.ai/ ai background for product photos production tools (gradients, shadows, converters, genai) production tools (gradients, shadows, converters, genai)"
         },
         {
-          "id": "resource-175",
+          "id": "resource-177",
           "title": "🤖 Relume Ipsum",
           "url": "https://www.relumeipsum.com/",
           "description": "a fast way to write AI copy for a website",
           "searchText": "🤖 relume ipsum https://www.relumeipsum.com/ a fast way to write ai copy for a website production tools (gradients, shadows, converters, genai) production tools (gradients, shadows, converters, genai)"
         },
         {
-          "id": "resource-176",
+          "id": "resource-178",
           "title": "🤖 Gemini 2.5 Flash Image (Nano Banana)",
           "url": "https://aistudio.google.com/models/gemini-2-5-flash-image",
           "description": "unlock multimodal creativity for the next generation of visual apps",
           "searchText": "🤖 gemini 2.5 flash image (nano banana) https://aistudio.google.com/models/gemini-2-5-flash-image unlock multimodal creativity for the next generation of visual apps production tools (gradients, shadows, converters, genai) production tools (gradients, shadows, converters, genai)"
         },
         {
-          "id": "resource-177",
+          "id": "resource-179",
           "title": "🤖 Logo Diffusion",
           "url": "https://logodiffusion.com/",
           "description": "create custom logos in seconds with Logo Diffusion's AI Logo Maker",
           "searchText": "🤖 logo diffusion https://logodiffusion.com/ create custom logos in seconds with logo diffusion's ai logo maker production tools (gradients, shadows, converters, genai) production tools (gradients, shadows, converters, genai)"
         },
         {
-          "id": "resource-178",
+          "id": "resource-180",
           "title": "🤖 Flair.ai",
           "url": "https://flair.ai/",
           "description": "AI tool for creating product content, including on-model photography, ad generation, and video creation",
           "searchText": "🤖 flair.ai https://flair.ai/ ai tool for creating product content, including on-model photography, ad generation, and video creation production tools (gradients, shadows, converters, genai) production tools (gradients, shadows, converters, genai)"
         },
         {
-          "id": "resource-179",
+          "id": "resource-181",
           "title": "SPACE TYPE GENERATOR",
           "url": "https://spacetypegenerator.com/",
           "description": "an open source tool that allows users to create their own kinetic type experiments",
           "searchText": "space type generator https://spacetypegenerator.com/ an open source tool that allows users to create their own kinetic type experiments production tools (gradients, shadows, converters, genai) production tools (gradients, shadows, converters, genai)"
         },
         {
-          "id": "resource-180",
+          "id": "resource-182",
           "title": "ISF",
           "url": "https://editor.isf.video/",
           "description": "create interactive shaders to use on desktop, mobile, and in the browser",
@@ -1339,35 +1353,35 @@
       "parentTitle": "Production Tools (Gradients, Shadows, Converters, GenAI)",
       "items": [
         {
-          "id": "resource-181",
+          "id": "resource-183",
           "title": "🤖 ChatGPT",
           "url": "https://openai.com/index/chatgpt/",
           "description": "developed by OpenAI, ChatGPT is renowned for its human-like conversational abilities and is widely used for various applications, including drafting emails, writing code, and answering questions",
           "searchText": "🤖 chatgpt https://openai.com/index/chatgpt/ developed by openai, chatgpt is renowned for its human-like conversational abilities and is widely used for various applications, including drafting emails, writing code, and answering questions multipurpose ai chat production tools (gradients, shadows, converters, genai)"
         },
         {
-          "id": "resource-182",
+          "id": "resource-184",
           "title": "🤖 Google Gemini",
           "url": "https://gemini.google.com/app",
           "description": "formerly known as Google Bard, Gemini is Google's AI chatbot that leverages the company's extensive search capabilities to provide accurate and up-to-date information",
           "searchText": "🤖 google gemini https://gemini.google.com/app formerly known as google bard, gemini is google's ai chatbot that leverages the company's extensive search capabilities to provide accurate and up-to-date information multipurpose ai chat production tools (gradients, shadows, converters, genai)"
         },
         {
-          "id": "resource-183",
+          "id": "resource-185",
           "title": "🤖 Copilot",
           "url": "https://copilot.microsoft.com/",
           "description": "Microsoft's Copilot integrates seamlessly with Office applications, assisting users by generating content, summarizing information, and enhancing productivity",
           "searchText": "🤖 copilot https://copilot.microsoft.com/ microsoft's copilot integrates seamlessly with office applications, assisting users by generating content, summarizing information, and enhancing productivity multipurpose ai chat production tools (gradients, shadows, converters, genai)"
         },
         {
-          "id": "resource-184",
+          "id": "resource-186",
           "title": "🤖 Grok",
           "url": "https://x.ai/grok",
           "description": "an AI chatbot developed by xAI, a company founded by Elon Musk, Grok is integrated into X (formerly Twitter) and is known for its real-time data access and a personality described as rebellious and sarcastic",
           "searchText": "🤖 grok https://x.ai/grok an ai chatbot developed by xai, a company founded by elon musk, grok is integrated into x (formerly twitter) and is known for its real-time data access and a personality described as rebellious and sarcastic multipurpose ai chat production tools (gradients, shadows, converters, genai)"
         },
         {
-          "id": "resource-185",
+          "id": "resource-187",
           "title": "🤖 Claude",
           "url": "https://claude.ai/login",
           "description": "created by Anthropic, Claude is designed with a focus on AI safety and reliability, offering users a trustworthy conversational experience",
@@ -1381,21 +1395,21 @@
       "parentTitle": "Design Systems & Frameworks",
       "items": [
         {
-          "id": "resource-186",
+          "id": "resource-188",
           "title": "Material Design",
           "url": "https://m3.material.io/",
           "description": "Google's open-source design system, provides comprehensive guidelines, styles, & components to create user-friendly interfaces",
           "searchText": "material design https://m3.material.io/ google's open-source design system, provides comprehensive guidelines, styles, & components to create user-friendly interfaces design systems & frameworks design systems & frameworks"
         },
         {
-          "id": "resource-187",
+          "id": "resource-189",
           "title": "Fluent UI",
           "url": "https://developer.microsoft.com/en-us/fluentui#/",
           "description": "Microsoft's collection of UX frameworks for creating beautiful, cross-platform apps that share code, design, and interaction behavior",
           "searchText": "fluent ui https://developer.microsoft.com/en-us/fluentui#/ microsoft's collection of ux frameworks for creating beautiful, cross-platform apps that share code, design, and interaction behavior design systems & frameworks design systems & frameworks"
         },
         {
-          "id": "resource-188",
+          "id": "resource-190",
           "title": "Carbon Design System",
           "url": "https://carbondesignsystem.com/",
           "description": "IBM's open-source design system for digital experiences, with a focus on accessibility, modularity, and flexibility",
@@ -1409,130 +1423,130 @@
       "parentTitle": "Design Systems & Frameworks",
       "items": [
         {
-          "id": "resource-189",
+          "id": "resource-191",
           "title": "Starbucks Creative Expression",
           "url": "https://creative.starbucks.com/",
           "searchText": "starbucks creative expression https://creative.starbucks.com/ references and learning resources design systems & frameworks"
         },
         {
-          "id": "resource-190",
+          "id": "resource-192",
           "title": "Dropbox Brand Guidelines",
           "url": "https://brand.dropbox.com/",
           "searchText": "dropbox brand guidelines https://brand.dropbox.com/ references and learning resources design systems & frameworks"
         },
         {
-          "id": "resource-191",
+          "id": "resource-193",
           "title": "IBM Design Language",
           "url": "https://www.ibm.com/design/language/",
           "searchText": "ibm design language https://www.ibm.com/design/language/ references and learning resources design systems & frameworks"
         },
         {
-          "id": "resource-192",
+          "id": "resource-194",
           "title": "IBM Carbon Design System",
           "url": "https://carbondesignsystem.com/",
           "searchText": "ibm carbon design system https://carbondesignsystem.com/ references and learning resources design systems & frameworks"
         },
         {
-          "id": "resource-193",
+          "id": "resource-195",
           "title": "Apple - Human Interface Guidelines",
           "url": "https://developer.apple.com/design/human-interface-guidelines/",
           "searchText": "apple - human interface guidelines https://developer.apple.com/design/human-interface-guidelines/ references and learning resources design systems & frameworks"
         },
         {
-          "id": "resource-194",
+          "id": "resource-196",
           "title": "Spotify Design & Branding Guidelines",
           "url": "https://developer.spotify.com/documentation/design",
           "searchText": "spotify design & branding guidelines https://developer.spotify.com/documentation/design references and learning resources design systems & frameworks"
         },
         {
-          "id": "resource-195",
+          "id": "resource-197",
           "title": "Pepsi Global Redesign",
           "url": "https://design.pepsico.com/case-studies/pepsi-global-redesign",
           "searchText": "pepsi global redesign https://design.pepsico.com/case-studies/pepsi-global-redesign references and learning resources design systems & frameworks"
         },
         {
-          "id": "resource-196",
+          "id": "resource-198",
           "title": "Instagram Brand Identity",
           "url": "https://about.instagram.com/brand",
           "searchText": "instagram brand identity https://about.instagram.com/brand references and learning resources design systems & frameworks"
         },
         {
-          "id": "resource-197",
+          "id": "resource-199",
           "title": "Wise Design Identity",
           "url": "https://wise.design/",
           "searchText": "wise design identity https://wise.design/ references and learning resources design systems & frameworks"
         },
         {
-          "id": "resource-198",
+          "id": "resource-200",
           "title": "eBay Playbook",
           "url": "https://playbook.ebay.com/",
           "searchText": "ebay playbook https://playbook.ebay.com/ references and learning resources design systems & frameworks"
         },
         {
-          "id": "resource-199",
+          "id": "resource-201",
           "title": "The Design System Guide",
           "url": "https://thedesignsystem.guide/",
           "description": "all the essential resources for setting up the design system",
           "searchText": "the design system guide https://thedesignsystem.guide/ all the essential resources for setting up the design system references and learning resources design systems & frameworks"
         },
         {
-          "id": "resource-200",
+          "id": "resource-202",
           "title": "Hey Design Systems!",
           "url": "https://heydesign.systems/",
           "description": "your introduction to design systems",
           "searchText": "hey design systems! https://heydesign.systems/ your introduction to design systems references and learning resources design systems & frameworks"
         },
         {
-          "id": "resource-201",
+          "id": "resource-203",
           "title": "Design System Knowledge Base",
           "url": "https://thedesignsystem.guide/knowledge-base",
           "description": "resource for design system questions",
           "searchText": "design system knowledge base https://thedesignsystem.guide/knowledge-base resource for design system questions references and learning resources design systems & frameworks"
         },
         {
-          "id": "resource-202",
+          "id": "resource-204",
           "title": "Cash App",
           "url": "https://design.cash.app/",
           "searchText": "cash app https://design.cash.app/ references and learning resources design systems & frameworks"
         },
         {
-          "id": "resource-203",
+          "id": "resource-205",
           "title": "Vercel Geist Design System",
           "url": "https://vercel.com/geist/introduction",
           "searchText": "vercel geist design system https://vercel.com/geist/introduction references and learning resources design systems & frameworks"
         },
         {
-          "id": "resource-204",
+          "id": "resource-206",
           "title": "Orbit Design System",
           "url": "https://orbit.kiwi/",
           "searchText": "orbit design system https://orbit.kiwi/ references and learning resources design systems & frameworks"
         },
         {
-          "id": "resource-205",
+          "id": "resource-207",
           "title": "LINE Design System",
           "url": "https://designsystem.line.me/",
           "searchText": "line design system https://designsystem.line.me/ references and learning resources design systems & frameworks"
         },
         {
-          "id": "resource-206",
+          "id": "resource-208",
           "title": "Atlassian Design System",
           "url": "https://atlassian.design/",
           "searchText": "atlassian design system https://atlassian.design/ references and learning resources design systems & frameworks"
         },
         {
-          "id": "resource-207",
+          "id": "resource-209",
           "title": "Material Design 3",
           "url": "https://m3.material.io/",
           "searchText": "material design 3 https://m3.material.io/ references and learning resources design systems & frameworks"
         },
         {
-          "id": "resource-208",
+          "id": "resource-210",
           "title": "Shopify Polaris",
           "url": "https://polaris-react.shopify.com/",
           "searchText": "shopify polaris https://polaris-react.shopify.com/ references and learning resources design systems & frameworks"
         },
         {
-          "id": "resource-209",
+          "id": "resource-211",
           "title": "Microsoft Fluent 2",
           "url": "https://fluent2.microsoft.design/",
           "searchText": "microsoft fluent 2 https://fluent2.microsoft.design/ references and learning resources design systems & frameworks"
@@ -1545,104 +1559,104 @@
       "parentTitle": "Learning (Courses, Articles, Books, Case Studies)",
       "items": [
         {
-          "id": "resource-210",
+          "id": "resource-212",
           "title": "28 Best Free Fonts for Modern UI Design in 2025 (+ Typography Best Practices)",
           "url": "https://www.untitledui.com/blog/best-free-fonts",
           "description": "article",
           "searchText": "28 best free fonts for modern ui design in 2025 (+ typography best practices) https://www.untitledui.com/blog/best-free-fonts article learning (courses, articles, books, case studies) learning (courses, articles, books, case studies)"
         },
         {
-          "id": "resource-211",
+          "id": "resource-213",
           "title": "Font trends for 2025 that creatives should keep in mind",
           "url": "https://www.lummi.ai/blog/font-trends",
           "searchText": "font trends for 2025 that creatives should keep in mind https://www.lummi.ai/blog/font-trends learning (courses, articles, books, case studies) learning (courses, articles, books, case studies)"
         },
         {
-          "id": "resource-212",
+          "id": "resource-214",
           "title": "Visual Design in UX: Study Guide",
           "url": "https://www.nngroup.com/articles/visual-design-in-ux-study-guide/",
           "description": "article",
           "searchText": "visual design in ux: study guide https://www.nngroup.com/articles/visual-design-in-ux-study-guide/ article learning (courses, articles, books, case studies) learning (courses, articles, books, case studies)"
         },
         {
-          "id": "resource-213",
+          "id": "resource-215",
           "title": "Interaction Design Foundation: The Encyclopedia of Human-Computer Interaction, 2nd Ed.",
           "url": "https://www.interaction-design.org/literature",
           "description": "article",
           "searchText": "interaction design foundation: the encyclopedia of human-computer interaction, 2nd ed. https://www.interaction-design.org/literature article learning (courses, articles, books, case studies) learning (courses, articles, books, case studies)"
         },
         {
-          "id": "resource-214",
+          "id": "resource-216",
           "title": "Practical UX skills and tools",
           "url": "https://uxtools.co/",
           "description": "practical lessons, resources, and news in just 5 minutes a week",
           "searchText": "practical ux skills and tools https://uxtools.co/ practical lessons, resources, and news in just 5 minutes a week learning (courses, articles, books, case studies) learning (courses, articles, books, case studies)"
         },
         {
-          "id": "resource-215",
+          "id": "resource-217",
           "title": "Laws of UX",
           "url": "https://lawsofux.com/",
           "description": "a collection of best practices that designers can consider when building user interfaces",
           "searchText": "laws of ux https://lawsofux.com/ a collection of best practices that designers can consider when building user interfaces learning (courses, articles, books, case studies) learning (courses, articles, books, case studies)"
         },
         {
-          "id": "resource-216",
+          "id": "resource-218",
           "title": "Design Principles",
           "url": "https://principles.design/",
           "description": "аn open source collection of Design Principles and methods",
           "searchText": "design principles https://principles.design/ аn open source collection of design principles and methods learning (courses, articles, books, case studies) learning (courses, articles, books, case studies)"
         },
         {
-          "id": "resource-217",
+          "id": "resource-219",
           "title": "The Psychology of Design",
           "url": "https://growth.design/psychology#fitts-law",
           "description": "106 Cognitive Biases & Principles That Affect Your UX",
           "searchText": "the psychology of design https://growth.design/psychology#fitts-law 106 cognitive biases & principles that affect your ux learning (courses, articles, books, case studies) learning (courses, articles, books, case studies)"
         },
         {
-          "id": "resource-218",
+          "id": "resource-220",
           "title": "Data Table Design Patterns",
           "url": "https://medium.com/design-bootcamp/data-table-design-patterns-4e38188a0981",
           "description": "article",
           "searchText": "data table design patterns https://medium.com/design-bootcamp/data-table-design-patterns-4e38188a0981 article learning (courses, articles, books, case studies) learning (courses, articles, books, case studies)"
         },
         {
-          "id": "resource-219",
+          "id": "resource-221",
           "title": "UX Resources & Bookmarks",
           "url": "https://simonasmaciulis.gumroad.com/l/ux-resources",
           "description": "200+ resources that will help you to learn more about UX",
           "searchText": "ux resources & bookmarks https://simonasmaciulis.gumroad.com/l/ux-resources 200+ resources that will help you to learn more about ux learning (courses, articles, books, case studies) learning (courses, articles, books, case studies)"
         },
         {
-          "id": "resource-220",
+          "id": "resource-222",
           "title": "Memorisely",
           "url": "https://www.memorisely.com/",
           "description": "live and on-demand immersive Figma training plans",
           "searchText": "memorisely https://www.memorisely.com/ live and on-demand immersive figma training plans learning (courses, articles, books, case studies) learning (courses, articles, books, case studies)"
         },
         {
-          "id": "resource-221",
+          "id": "resource-223",
           "title": "User-Interface Elements: Glossary",
           "url": "https://www.nngroup.com/articles/ui-elements-glossary/?utm_campaign=&utm_source=linkedin&utm_medium=social#Ribbon",
           "description": "use this glossary to clarify definitions for key graphical user-interface elements and controls quickly",
           "searchText": "user-interface elements: glossary https://www.nngroup.com/articles/ui-elements-glossary/?utm_campaign=&utm_source=linkedin&utm_medium=social#ribbon use this glossary to clarify definitions for key graphical user-interface elements and controls quickly learning (courses, articles, books, case studies) learning (courses, articles, books, case studies)"
         },
         {
-          "id": "resource-222",
+          "id": "resource-224",
           "title": "Design Patterns Catalogue",
           "url": "https://catalogue.projectsbyif.com/",
           "description": "design pattern guideline resources to help you build better websites and apps",
           "searchText": "design patterns catalogue https://catalogue.projectsbyif.com/ design pattern guideline resources to help you build better websites and apps learning (courses, articles, books, case studies) learning (courses, articles, books, case studies)"
         },
         {
-          "id": "resource-223",
+          "id": "resource-225",
           "title": "Humane by Design",
           "url": "https://humanebydesign.com/",
           "description": "guidance for designing humane digital products and services focused on digital well-being",
           "searchText": "humane by design https://humanebydesign.com/ guidance for designing humane digital products and services focused on digital well-being learning (courses, articles, books, case studies) learning (courses, articles, books, case studies)"
         },
         {
-          "id": "resource-224",
+          "id": "resource-226",
           "title": "Design Token Naming Guide",
           "url": "https://www.namedesigntokens.guide/",
           "description": "learn how to name design tokens the right way",
@@ -1656,343 +1670,343 @@
       "parentTitle": "Figma plugins & resources",
       "items": [
         {
-          "id": "resource-225",
+          "id": "resource-227",
           "title": "Simple Design System",
           "url": "https://www.figma.com/community/file/1380235722331273046",
           "description": "a UI kit built by Figma to help you get started faster using pre-built examples and components",
           "searchText": "simple design system https://www.figma.com/community/file/1380235722331273046 a ui kit built by figma to help you get started faster using pre-built examples and components figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-226",
+          "id": "resource-228",
           "title": "Fig Mayo",
           "url": "https://www.figmayo.com/",
           "description": "effortless design system docs",
           "searchText": "fig mayo https://www.figmayo.com/ effortless design system docs figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-227",
+          "id": "resource-229",
           "title": "Specs",
           "url": "https://www.figma.com/community/plugin/1205622541257680763/specs-formerly-eightshapes-specs",
           "description": "automate production of page and component design specifications (“specs”) of selected components, instances and frames.",
           "searchText": "specs https://www.figma.com/community/plugin/1205622541257680763/specs-formerly-eightshapes-specs automate production of page and component design specifications (“specs”) of selected components, instances and frames. figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-228",
+          "id": "resource-230",
           "title": "Contrast Grid",
           "url": "https://www.figma.com/community/plugin/993414361395505148/Contrast-Grid",
           "description": "a plugin to check the contrast of multiple foreground and background color combos for a11y with WCAG 2.1 minimum contrast",
           "searchText": "contrast grid https://www.figma.com/community/plugin/993414361395505148/contrast-grid a plugin to check the contrast of multiple foreground and background color combos for a11y with wcag 2.1 minimum contrast figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-229",
+          "id": "resource-231",
           "title": "Mockuuups Studio",
           "url": "https://www.figma.com/community/plugin/786250770157843670/mockuuups-studio",
           "description": "mockup plugin with 4500+ device mockups",
           "searchText": "mockuuups studio https://www.figma.com/community/plugin/786250770157843670/mockuuups-studio mockup plugin with 4500+ device mockups figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-230",
+          "id": "resource-232",
           "title": "iOS 16 UI Kit for Figma",
           "url": "https://www.figma.com/community/file/1121065701252736567",
           "description": "contains hundreds of components, templates, demos, and everything else needed to help you start designing for iOS",
           "searchText": "ios 16 ui kit for figma https://www.figma.com/community/file/1121065701252736567 contains hundreds of components, templates, demos, and everything else needed to help you start designing for ios figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-231",
+          "id": "resource-233",
           "title": "Translator",
           "url": "https://www.figma.com/community/plugin/743218037112142643/translator",
           "description": "enables you to translate your text layers to other languages right in Figma",
           "searchText": "translator https://www.figma.com/community/plugin/743218037112142643/translator enables you to translate your text layers to other languages right in figma figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-232",
+          "id": "resource-234",
           "title": "Setproduct",
           "url": "https://www.setproduct.com/freebies",
           "description": "free Figma Templates - UI kits, app templates, design systems (freebies included)",
           "searchText": "setproduct https://www.setproduct.com/freebies free figma templates - ui kits, app templates, design systems (freebies included) figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-233",
+          "id": "resource-235",
           "title": "Design Lint",
           "url": "https://www.figma.com/community/plugin/801195587640428208/design-lint",
           "description": "a plugin that finds missing styles within your designs",
           "searchText": "design lint https://www.figma.com/community/plugin/801195587640428208/design-lint a plugin that finds missing styles within your designs figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-234",
+          "id": "resource-236",
           "title": "Simple Sort",
           "url": "https://www.figma.com/community/plugin/931578032226522167/simple-sort",
           "description": "automatically applies a basic structure to your component sets (variants), which can be customized to your liking",
           "searchText": "simple sort https://www.figma.com/community/plugin/931578032226522167/simple-sort automatically applies a basic structure to your component sets (variants), which can be customized to your liking figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-235",
+          "id": "resource-237",
           "title": "Super Tidy",
           "url": "https://www.figma.com/community/plugin/731260060173130163/super-tidy",
           "description": "keep your design tidy by easily aligning, renaming, and reordering your frames based on their canvas position",
           "searchText": "super tidy https://www.figma.com/community/plugin/731260060173130163/super-tidy keep your design tidy by easily aligning, renaming, and reordering your frames based on their canvas position figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-236",
+          "id": "resource-238",
           "title": "Styles & Variables Organizer",
           "url": "https://www.figma.com/community/plugin/816627069580757929/styles-variables-organizer",
           "description": "link values used in your design file to all types of styles and variables easily",
           "searchText": "styles & variables organizer https://www.figma.com/community/plugin/816627069580757929/styles-variables-organizer link values used in your design file to all types of styles and variables easily figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-237",
+          "id": "resource-239",
           "title": "Typography Style Guide Generator",
           "url": "https://www.figma.com/community/plugin/1209900339618349575/typography-style-guide-generator",
           "description": "this plugin allows you to generate a typography style guide based on your defined local styles",
           "searchText": "typography style guide generator https://www.figma.com/community/plugin/1209900339618349575/typography-style-guide-generator this plugin allows you to generate a typography style guide based on your defined local styles figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-238",
+          "id": "resource-240",
           "title": "Delete Hidden Layers",
           "url": "https://www.figma.com/community/plugin/750292779381900360/delete-hidden-layers",
           "description": "delete all hidden layers (also locked) at the current or inside the selected frame page, except layers in components",
           "searchText": "delete hidden layers https://www.figma.com/community/plugin/750292779381900360/delete-hidden-layers delete all hidden layers (also locked) at the current or inside the selected frame page, except layers in components figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-239",
+          "id": "resource-241",
           "title": "Humaan Annotations",
           "url": "https://www.figma.com/community/widget/1253154577300925316",
           "description": "a helpful widget for annotating/commenting on designs within the Figma canvas",
           "searchText": "humaan annotations https://www.figma.com/community/widget/1253154577300925316 a helpful widget for annotating/commenting on designs within the figma canvas figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-240",
+          "id": "resource-242",
           "title": "To Do: Just a task on your canvas",
           "url": "https://www.figma.com/community/widget/1229395149230714315",
           "description": "the tool for keeping track of tasks and managing workflow without ever leaving the design environment",
           "searchText": "to do: just a task on your canvas https://www.figma.com/community/widget/1229395149230714315 the tool for keeping track of tasks and managing workflow without ever leaving the design environment figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-241",
+          "id": "resource-243",
           "title": "Ticket Sync",
           "url": "https://www.figma.com/community/plugin/1073234730618485706/ticket-sync",
           "description": "effortlessly link your project management tool (Jira, ClickUp, Monday) and Figma with Ticket Sync",
           "searchText": "ticket sync https://www.figma.com/community/plugin/1073234730618485706/ticket-sync effortlessly link your project management tool (jira, clickup, monday) and figma with ticket sync figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-242",
+          "id": "resource-244",
           "title": "Faker",
           "url": "https://www.figma.com/community/plugin/833836762121994814/faker",
           "description": "quickly generates realistic placeholder text. Names, emails, URLs, headlines, and more",
           "searchText": "faker https://www.figma.com/community/plugin/833836762121994814/faker quickly generates realistic placeholder text. names, emails, urls, headlines, and more figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-243",
+          "id": "resource-245",
           "title": "Curve Text",
           "url": "https://www.figma.com/community/plugin/1331748701210388011/curve-text",
           "description": "from circles, squares, arches, to custom paths – bend your text any way you want",
           "searchText": "curve text https://www.figma.com/community/plugin/1331748701210388011/curve-text from circles, squares, arches, to custom paths – bend your text any way you want figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-244",
+          "id": "resource-246",
           "title": "Displace – pattern glass, noise and glitch effects",
           "url": "https://www.figma.com/community/plugin/1415463691038193181/displace-pattern-glass-noise-and-glitch-effects",
           "description": "create stunning reeded glass, noise, and glitch effects with real-time adjustments",
           "searchText": "displace – pattern glass, noise and glitch effects https://www.figma.com/community/plugin/1415463691038193181/displace-pattern-glass-noise-and-glitch-effects create stunning reeded glass, noise, and glitch effects with real-time adjustments figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-245",
+          "id": "resource-247",
           "title": "3D Wave: Soften everything like fabric",
           "url": "https://www.figma.com/community/plugin/1026141971534783843/3d-wave-soften-everything-like-fabric",
           "description": "make Everything into 3D wave",
           "searchText": "3d wave: soften everything like fabric https://www.figma.com/community/plugin/1026141971534783843/3d-wave-soften-everything-like-fabric make everything into 3d wave figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-246",
+          "id": "resource-248",
           "title": "Randomiser",
           "url": "https://www.figma.com/community/plugin/1189284785668093844/randomiser",
           "description": "randomise the positions, sizes, and colors of elements within a frame with just a few clicks",
           "searchText": "randomiser https://www.figma.com/community/plugin/1189284785668093844/randomiser randomise the positions, sizes, and colors of elements within a frame with just a few clicks figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-247",
+          "id": "resource-249",
           "title": "Trace Images",
           "url": "https://www.figma.com/community/plugin/1291512177354533481/trace-images",
           "description": "convert JPEGs and PNGs to vibrant SVG vectors in a single click, all within Figma",
           "searchText": "trace images https://www.figma.com/community/plugin/1291512177354533481/trace-images convert jpegs and pngs to vibrant svg vectors in a single click, all within figma figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-248",
+          "id": "resource-250",
           "title": "Progressive Blur",
           "url": "https://www.figma.com/community/plugin/1362669306042132547/progressive-blur",
           "description": "create real progressive blurs to your files, all in Figma",
           "searchText": "progressive blur https://www.figma.com/community/plugin/1362669306042132547/progressive-blur create real progressive blurs to your files, all in figma figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-249",
+          "id": "resource-251",
           "title": "Stark - Contrast & Accessibility Checker",
           "url": "https://www.figma.com/community/plugin/732603254453395948/stark-contrast-accessibility-checker",
           "description": "a powerful combination of integrated tools that help you streamline your accessibility workflow",
           "searchText": "stark - contrast & accessibility checker https://www.figma.com/community/plugin/732603254453395948/stark-contrast-accessibility-checker a powerful combination of integrated tools that help you streamline your accessibility workflow figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-250",
+          "id": "resource-252",
           "title": "Unipaste",
           "url": "https://www.figma.com/community/plugin/964930640501844415/unipaste",
           "description": "delivers the easiest way to work with special characters in Figma",
           "searchText": "unipaste https://www.figma.com/community/plugin/964930640501844415/unipaste delivers the easiest way to work with special characters in figma figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-251",
+          "id": "resource-253",
           "title": "Breakpoints",
           "url": "https://www.figma.com/community/plugin/824289601590456356/breakpoints",
           "description": "preview responsive layout inside a Figma frame and share animated prototype",
           "searchText": "breakpoints https://www.figma.com/community/plugin/824289601590456356/breakpoints preview responsive layout inside a figma frame and share animated prototype figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-252",
+          "id": "resource-254",
           "title": "Cleaner",
           "url": "https://www.figma.com/community/plugin/1264993877076633643/cleaner",
           "description": "tidies up selected or current page elements by removing unused and unnecessary items",
           "searchText": "cleaner https://www.figma.com/community/plugin/1264993877076633643/cleaner tidies up selected or current page elements by removing unused and unnecessary items figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-253",
+          "id": "resource-255",
           "title": "Organize Layers",
           "url": "https://www.figma.com/community/plugin/786286754606650597/organize-layers",
           "description": "organizes all layers on the current page based on layer name",
           "searchText": "organize layers https://www.figma.com/community/plugin/786286754606650597/organize-layers organizes all layers on the current page based on layer name figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-254",
+          "id": "resource-256",
           "title": "Effects",
           "url": "https://www.figma.com/community/plugin/1326067067584608052/effects",
           "description": "visual styles applied to objects",
           "searchText": "effects https://www.figma.com/community/plugin/1326067067584608052/effects visual styles applied to objects figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-255",
+          "id": "resource-257",
           "title": "thirteen23 - harmonograph",
           "url": "https://www.figma.com/community/plugin/1403515351214143901/thirteen23-harmonograph",
           "description": "generate intricate and beautiful geometric patterns based on the principles of harmonic motion",
           "searchText": "thirteen23 - harmonograph https://www.figma.com/community/plugin/1403515351214143901/thirteen23-harmonograph generate intricate and beautiful geometric patterns based on the principles of harmonic motion figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-256",
+          "id": "resource-258",
           "title": "Perspective",
           "url": "https://www.figma.com/community/plugin/1459523089148854271/perspective",
           "description": "add depth and dimension to your designs with easy-to-use perspective transformations and shadow effects",
           "searchText": "perspective https://www.figma.com/community/plugin/1459523089148854271/perspective add depth and dimension to your designs with easy-to-use perspective transformations and shadow effects figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-257",
+          "id": "resource-259",
           "title": "Skew to Figma",
           "url": "https://www.figma.com/community/plugin/1314599573129418692",
           "description": "Skew transform options for Figma",
           "searchText": "skew to figma https://www.figma.com/community/plugin/1314599573129418692 skew transform options for figma figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-258",
+          "id": "resource-260",
           "title": "Supa Gradient",
           "url": "https://www.figma.com/community/plugin/1097681662687985794/supa-gradient",
           "description": "Plugin to generate gradients",
           "searchText": "supa gradient https://www.figma.com/community/plugin/1097681662687985794/supa-gradient plugin to generate gradients figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-259",
+          "id": "resource-261",
           "title": "Reflect",
           "url": "https://www.figma.com/community/plugin/1292028417187154365/reflect",
           "description": "creates reflections",
           "searchText": "reflect https://www.figma.com/community/plugin/1292028417187154365/reflect creates reflections figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-260",
+          "id": "resource-262",
           "title": "Typescale",
           "url": "https://www.figma.com/community/plugin/739825414752646970/typescales",
           "description": "quickly generate a simple typescale/modular scale",
           "searchText": "typescale https://www.figma.com/community/plugin/739825414752646970/typescales quickly generate a simple typescale/modular scale figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-261",
+          "id": "resource-263",
           "title": "Color Shades",
           "url": "https://www.figma.com/community/plugin/929607085343688745/color-shades",
           "description": "generate multiple shades from the same base color",
           "searchText": "color shades https://www.figma.com/community/plugin/929607085343688745/color-shades generate multiple shades from the same base color figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-262",
+          "id": "resource-264",
           "title": "Bento Grid Maker",
           "url": "https://www.figma.com/community/plugin/1361301034817165317/bento-grid-maker",
           "description": "creates Bento Grid templates in Figma",
           "searchText": "bento grid maker https://www.figma.com/community/plugin/1361301034817165317/bento-grid-maker creates bento grid templates in figma figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-263",
+          "id": "resource-265",
           "title": "Visual Mockups - Devices & Branding Mockups",
           "url": "https://www.figma.com/community/plugin/1412299653088139669/visual-mockups-devices-branding-mockups",
           "description": "a mockup library with high-quality, realistic mockups",
           "searchText": "visual mockups - devices & branding mockups https://www.figma.com/community/plugin/1412299653088139669/visual-mockups-devices-branding-mockups a mockup library with high-quality, realistic mockups figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-264",
+          "id": "resource-266",
           "title": "Kigen",
           "url": "https://www.figma.com/community/plugin/1499119094608975695/kigen-generate-design-system-variable-style-document",
           "description": "create your design system foundations — variables, styles, and tokens — in just a few clicks",
           "searchText": "kigen https://www.figma.com/community/plugin/1499119094608975695/kigen-generate-design-system-variable-style-document create your design system foundations — variables, styles, and tokens — in just a few clicks figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-265",
+          "id": "resource-267",
           "title": "Effect.app",
           "url": "https://www.figma.com/community/plugin/1504395974062742075/effect-app-real-time-image-video-effects",
           "description": "add real-time, stackable effects to any frame without leaving Figma",
           "searchText": "effect.app https://www.figma.com/community/plugin/1504395974062742075/effect-app-real-time-image-video-effects add real-time, stackable effects to any frame without leaving figma figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-266",
+          "id": "resource-268",
           "title": "Content Reel",
           "url": "https://www.figma.com/community/plugin/731627216655469013/content-reel",
           "description": "pulling text strings, images, and icons from one palette",
           "searchText": "content reel https://www.figma.com/community/plugin/731627216655469013/content-reel pulling text strings, images, and icons from one palette figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-267",
+          "id": "resource-269",
           "title": "Morph",
           "url": "https://www.figma.com/community/plugin/906950256777348534/morph",
           "description": "create awesome effects like Skeuomorph, Neon, Glitch, Reflection, Glass, Gradient, etc. right in Figma",
           "searchText": "morph https://www.figma.com/community/plugin/906950256777348534/morph create awesome effects like skeuomorph, neon, glitch, reflection, glass, gradient, etc. right in figma figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-268",
+          "id": "resource-270",
           "title": "Stippling",
           "url": "https://www.figma.com/community/plugin/1409794712197371392/stippling",
           "description": "creating stippling effects in Figma",
           "searchText": "stippling https://www.figma.com/community/plugin/1409794712197371392/stippling creating stippling effects in figma figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-269",
+          "id": "resource-271",
           "title": "🤖 Lummi",
           "url": "https://www.figma.com/community/plugin/1326615072959029075/lummi",
           "description": "offers access to a world of stunning, AI-generated images crafted by talented digital artists",
           "searchText": "🤖 lummi https://www.figma.com/community/plugin/1326615072959029075/lummi offers access to a world of stunning, ai-generated images crafted by talented digital artists figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-270",
+          "id": "resource-272",
           "title": "🤖 Genie",
           "url": "https://genie.framer.website/",
           "description": "simplify your content creation process with AI",
           "searchText": "🤖 genie https://genie.framer.website/ simplify your content creation process with ai figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-271",
+          "id": "resource-273",
           "title": "🤖 Attention Insight",
           "url": "https://www.figma.com/community/plugin/968765016617421513/attention-insight",
           "description": "Artificial Intelligence instantly predicts where users will look after engaging with your design so you can save time and avoid fixes after the launch",
           "searchText": "🤖 attention insight https://www.figma.com/community/plugin/968765016617421513/attention-insight artificial intelligence instantly predicts where users will look after engaging with your design so you can save time and avoid fixes after the launch figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-272",
+          "id": "resource-274",
           "title": "🤖 Generator",
           "url": "https://www.figma.com/community/plugin/899028246731755335/generator",
           "description": "the first node-based plugin with the power to create generative art right in Figma, no code required",
           "searchText": "🤖 generator https://www.figma.com/community/plugin/899028246731755335/generator the first node-based plugin with the power to create generative art right in figma, no code required figma plugins & resources figma plugins & resources"
         },
         {
-          "id": "resource-273",
+          "id": "resource-275",
           "title": "🤖 Generative Gradients",
           "url": "https://www.figma.com/community/plugin/1347316282856177038/generative-gradients",
           "description": "create complex gradients using just a few simple tools such as color, radius, positioning, blur, and distortion",
@@ -2006,147 +2020,147 @@
       "parentTitle": "News & Blogs (Curated resources, newsletters)",
       "items": [
         {
-          "id": "resource-274",
+          "id": "resource-276",
           "title": "It's Nice That",
           "url": "https://www.itsnicethat.com/projects-creatives",
           "description": "daily dose of creative inspiration",
           "searchText": "it's nice that https://www.itsnicethat.com/projects-creatives daily dose of creative inspiration news & blogs (curated resources, newsletters) news & blogs (curated resources, newsletters)"
         },
         {
-          "id": "resource-275",
+          "id": "resource-277",
           "title": "Design Milk",
           "url": "https://design-milk.com/",
           "description": "spotlights emerging talent, innovation, and creative living across architecture, art, and more",
           "searchText": "design milk https://design-milk.com/ spotlights emerging talent, innovation, and creative living across architecture, art, and more news & blogs (curated resources, newsletters) news & blogs (curated resources, newsletters)"
         },
         {
-          "id": "resource-276",
+          "id": "resource-278",
           "title": "Smashing Magazine",
           "url": "https://www.smashingmagazine.com/",
           "description": "offers practical design and development insights to help you build better, user-friendly websites",
           "searchText": "smashing magazine https://www.smashingmagazine.com/ offers practical design and development insights to help you build better, user-friendly websites news & blogs (curated resources, newsletters) news & blogs (curated resources, newsletters)"
         },
         {
-          "id": "resource-277",
+          "id": "resource-279",
           "title": "UX Collective",
           "url": "https://uxdesign.cc/",
           "description": "a design publication sharing thoughtful insights on UX, product, and visual design",
           "searchText": "ux collective https://uxdesign.cc/ a design publication sharing thoughtful insights on ux, product, and visual design news & blogs (curated resources, newsletters) news & blogs (curated resources, newsletters)"
         },
         {
-          "id": "resource-278",
+          "id": "resource-280",
           "title": "The Creative Edge",
           "url": "https://99designs.com/blog/",
           "description": "99designs' blog offers design inspiration, tutorials, and resources for designers and entrepreneurs",
           "searchText": "the creative edge https://99designs.com/blog/ 99designs' blog offers design inspiration, tutorials, and resources for designers and entrepreneurs news & blogs (curated resources, newsletters) news & blogs (curated resources, newsletters)"
         },
         {
-          "id": "resource-279",
+          "id": "resource-281",
           "title": "Creative Boom",
           "url": "https://www.creativeboom.com/",
           "description": "delivers news, inspiration, and insights to empower the global creative community",
           "searchText": "creative boom https://www.creativeboom.com/ delivers news, inspiration, and insights to empower the global creative community news & blogs (curated resources, newsletters) news & blogs (curated resources, newsletters)"
         },
         {
-          "id": "resource-280",
+          "id": "resource-282",
           "title": "Made By James",
           "url": "https://themadebyjames.com/the-blog/",
           "description": "design tips by James Martin",
           "searchText": "made by james https://themadebyjames.com/the-blog/ design tips by james martin news & blogs (curated resources, newsletters) news & blogs (curated resources, newsletters)"
         },
         {
-          "id": "resource-281",
+          "id": "resource-283",
           "title": "Nielsen Norman Group Articles & Videos",
           "url": "https://www.nngroup.com/articles/",
           "description": "provides research-based insights on user experience, interaction design, and usability",
           "searchText": "nielsen norman group articles & videos https://www.nngroup.com/articles/ provides research-based insights on user experience, interaction design, and usability news & blogs (curated resources, newsletters) news & blogs (curated resources, newsletters)"
         },
         {
-          "id": "resource-282",
+          "id": "resource-284",
           "title": "The DESK Magazine",
           "url": "https://vanschneider.com/blog/",
           "description": "the design blog of Tobias von Schneider",
           "searchText": "the desk magazine https://vanschneider.com/blog/ the design blog of tobias von schneider news & blogs (curated resources, newsletters) news & blogs (curated resources, newsletters)"
         },
         {
-          "id": "resource-283",
+          "id": "resource-285",
           "title": "Smashing Magazine",
           "url": "https://www.smashingmagazine.com/the-smashing-newsletter/",
           "description": "useful tips and techniques on front-end and UX",
           "searchText": "smashing magazine https://www.smashingmagazine.com/the-smashing-newsletter/ useful tips and techniques on front-end and ux news & blogs (curated resources, newsletters) news & blogs (curated resources, newsletters)"
         },
         {
-          "id": "resource-284",
+          "id": "resource-286",
           "title": "Dense Discovery",
           "url": "https://www.densediscovery.com/",
           "description": "offers a curated selection of links across design, technology, art, urbanism, and sustainability",
           "searchText": "dense discovery https://www.densediscovery.com/ offers a curated selection of links across design, technology, art, urbanism, and sustainability news & blogs (curated resources, newsletters) news & blogs (curated resources, newsletters)"
         },
         {
-          "id": "resource-285",
+          "id": "resource-287",
           "title": "NN/g Newsletter",
           "url": "https://www.nngroup.com/articles/subscribe/",
           "description": "the latest articles about usability, design, and UX research from the Nielsen Norman Group",
           "searchText": "nn/g newsletter https://www.nngroup.com/articles/subscribe/ the latest articles about usability, design, and ux research from the nielsen norman group news & blogs (curated resources, newsletters) news & blogs (curated resources, newsletters)"
         },
         {
-          "id": "resource-286",
+          "id": "resource-288",
           "title": "HeyDesigner",
           "url": "https://heydesigner.com/",
           "description": "the go-to newsletter for product people, UXers, PMs, and design engineers",
           "searchText": "heydesigner https://heydesigner.com/ the go-to newsletter for product people, uxers, pms, and design engineers news & blogs (curated resources, newsletters) news & blogs (curated resources, newsletters)"
         },
         {
-          "id": "resource-287",
+          "id": "resource-289",
           "title": "Interaction Design Foundation",
           "url": "https://www.interaction-design.org/newsletter",
           "description": "stay updated with high-quality educational material every week",
           "searchText": "interaction design foundation https://www.interaction-design.org/newsletter stay updated with high-quality educational material every week news & blogs (curated resources, newsletters) news & blogs (curated resources, newsletters)"
         },
         {
-          "id": "resource-288",
+          "id": "resource-290",
           "title": "Awesome Design",
           "url": "https://github.com/gztchan/awesome-design",
           "description": "curated design resources from all over the world",
           "searchText": "awesome design https://github.com/gztchan/awesome-design curated design resources from all over the world news & blogs (curated resources, newsletters) news & blogs (curated resources, newsletters)"
         },
         {
-          "id": "resource-289",
+          "id": "resource-291",
           "title": "Awesome Design Systems",
           "url": "https://github.com/alexpate/awesome-design-systems",
           "description": "a collection of awesome design systems",
           "searchText": "awesome design systems https://github.com/alexpate/awesome-design-systems a collection of awesome design systems news & blogs (curated resources, newsletters) news & blogs (curated resources, newsletters)"
         },
         {
-          "id": "resource-290",
+          "id": "resource-292",
           "title": "Tools.Design",
           "url": "https://www.toools.design/",
           "description": "a growing archive of 1,500+ design resources, frequently updated for the community",
           "searchText": "tools.design https://www.toools.design/ a growing archive of 1,500+ design resources, frequently updated for the community news & blogs (curated resources, newsletters) news & blogs (curated resources, newsletters)"
         },
         {
-          "id": "resource-291",
+          "id": "resource-293",
           "title": "Checklist Design",
           "url": "https://www.checklist.design/",
           "description": "a collection of the best design practices",
           "searchText": "checklist design https://www.checklist.design/ a collection of the best design practices news & blogs (curated resources, newsletters) news & blogs (curated resources, newsletters)"
         },
         {
-          "id": "resource-292",
+          "id": "resource-294",
           "title": "Untools",
           "url": "https://untools.co/",
           "description": "thinking tools and frameworks to help you solve problems, make decisions, and understand systems",
           "searchText": "untools https://untools.co/ thinking tools and frameworks to help you solve problems, make decisions, and understand systems news & blogs (curated resources, newsletters) news & blogs (curated resources, newsletters)"
         },
         {
-          "id": "resource-293",
+          "id": "resource-295",
           "title": "Resource.fyi",
           "url": "https://resource.fyi/",
           "description": "products, Resources, and Tools handpicked for developers, designers, marketers, tech enthusiasts, and professionals",
           "searchText": "resource.fyi https://resource.fyi/ products, resources, and tools handpicked for developers, designers, marketers, tech enthusiasts, and professionals news & blogs (curated resources, newsletters) news & blogs (curated resources, newsletters)"
         },
         {
-          "id": "resource-294",
+          "id": "resource-296",
           "title": "Karl Sims",
           "url": "https://www.karlsims.com/",
           "description": "awesome resources for web applications, computer animations, technical papers, and more",
@@ -2160,98 +2174,105 @@
       "parentTitle": "Animations, 3D and Sound",
       "items": [
         {
-          "id": "resource-295",
+          "id": "resource-297",
           "title": "Motionimo",
           "url": "https://www.motionimo.xyz/",
           "description": "a free tool that shares resources, tips, expressions, and inspirations around motion design",
           "searchText": "motionimo https://www.motionimo.xyz/ a free tool that shares resources, tips, expressions, and inspirations around motion design animations, 3d and sound animations, 3d and sound"
         },
         {
-          "id": "resource-296",
+          "id": "resource-298",
           "title": "Creattie",
           "url": "https://creattie.com/",
           "description": "a curated library of Lottie animations and animated icons created by award-winning artists",
           "searchText": "creattie https://creattie.com/ a curated library of lottie animations and animated icons created by award-winning artists animations, 3d and sound animations, 3d and sound"
         },
         {
-          "id": "resource-297",
+          "id": "resource-299",
           "title": "MageCDN",
           "url": "https://magecdn.com/tools/svg-loaders",
           "description": "free 100+ open source SVG spinners",
           "searchText": "magecdn https://magecdn.com/tools/svg-loaders free 100+ open source svg spinners animations, 3d and sound animations, 3d and sound"
         },
         {
-          "id": "resource-298",
+          "id": "resource-300",
           "title": "Abstract 3d vol.2",
           "url": "https://abstract-vol2.wannathis.one/",
           "description": "playful set of different shapes to enhance your design projects",
           "searchText": "abstract 3d vol.2 https://abstract-vol2.wannathis.one/ playful set of different shapes to enhance your design projects animations, 3d and sound animations, 3d and sound"
         },
         {
-          "id": "resource-299",
+          "id": "resource-301",
           "title": "Modyfi",
           "url": "https://www.modyfi.com/",
           "description": "40+ built-in effects, all of which are real-time editable, non-destructive, animatable, and completely free to use",
           "searchText": "modyfi https://www.modyfi.com/ 40+ built-in effects, all of which are real-time editable, non-destructive, animatable, and completely free to use animations, 3d and sound animations, 3d and sound"
         },
         {
-          "id": "resource-300",
+          "id": "resource-302",
           "title": "Jitter",
           "url": "https://jitter.video/",
           "description": "a tool to create professional animated content - on-brand animated UIs, videos, social media posts, websites, apps, logos, and more",
           "searchText": "jitter https://jitter.video/ a tool to create professional animated content - on-brand animated uis, videos, social media posts, websites, apps, logos, and more animations, 3d and sound animations, 3d and sound"
         },
         {
-          "id": "resource-301",
+          "id": "resource-303",
           "title": "unicorn.studio",
           "url": "https://www.unicorn.studio/",
           "description": "elevate your web designs with enchanting WebGL effects, motion, and interactivity — with no code",
           "searchText": "unicorn.studio https://www.unicorn.studio/ elevate your web designs with enchanting webgl effects, motion, and interactivity — with no code animations, 3d and sound animations, 3d and sound"
         },
         {
-          "id": "resource-302",
+          "id": "resource-304",
           "title": "Paper",
           "url": "https://liquid.paper.design/",
           "description": "see your logo in liquid",
           "searchText": "paper https://liquid.paper.design/ see your logo in liquid animations, 3d and sound animations, 3d and sound"
         },
         {
-          "id": "resource-303",
+          "id": "resource-305",
           "title": "GSAP",
           "url": "https://gsap.com/",
           "description": "JavaScript animation library",
           "searchText": "gsap https://gsap.com/ javascript animation library animations, 3d and sound animations, 3d and sound"
         },
         {
-          "id": "resource-304",
+          "id": "resource-306",
           "title": "three.js",
           "url": "https://threejs.org/",
           "description": "cross-browser JavaScript library and application programming interface (API) used to create and display animated 3D computer graphics in a web browser using WebGL",
           "searchText": "three.js https://threejs.org/ cross-browser javascript library and application programming interface (api) used to create and display animated 3d computer graphics in a web browser using webgl animations, 3d and sound animations, 3d and sound"
         },
         {
-          "id": "resource-305",
+          "id": "resource-307",
           "title": "Spline",
           "url": "https://spline.design/",
           "description": "a free 3D design software with real-time collaboration to create web interactive experiences in the browser",
           "searchText": "spline https://spline.design/ a free 3d design software with real-time collaboration to create web interactive experiences in the browser animations, 3d and sound animations, 3d and sound"
         },
         {
-          "id": "resource-306",
+          "id": "resource-308",
           "title": "Myinstants",
           "url": "https://www.myinstants.com/en/index/bg/",
           "description": "discover funny instant sound buttons",
           "searchText": "myinstants https://www.myinstants.com/en/index/bg/ discover funny instant sound buttons animations, 3d and sound animations, 3d and sound"
         },
         {
-          "id": "resource-307",
+          "id": "resource-309",
           "title": "Endless Tools",
           "url": "https://endlesstools.io/",
           "description": "all-in-one web tool to quickly craft striking 3D visuals, animations, and unique effects — no heavy software or coding needed",
           "searchText": "endless tools https://endlesstools.io/ all-in-one web tool to quickly craft striking 3d visuals, animations, and unique effects — no heavy software or coding needed animations, 3d and sound animations, 3d and sound"
         },
         {
-          "id": "resource-308",
+          "id": "resource-310",
+          "title": "Contentcore XYZ",
+          "url": "https://contentcore.xyz/",
+          "description": "create content in one place, incredibly fast, export as images or videos",
+          "searchText": "contentcore xyz https://contentcore.xyz/ create content in one place, incredibly fast, export as images or videos animations, 3d and sound animations, 3d and sound"
+        },
+        {
+          "id": "resource-311",
           "title": "🤖 Tripo",
           "url": "https://www.tripo3d.ai/",
           "description": "from texts, images, or sketches to production-ready 3D Assets in seconds",
@@ -2265,28 +2286,28 @@
       "parentTitle": "Research & Accessibility (UX, Usability, A11y)",
       "items": [
         {
-          "id": "resource-309",
+          "id": "resource-312",
           "title": "How type influences readability",
           "url": "https://fonts.google.com/knowledge/readability_and_accessibility/how_type_influences_readability",
           "description": "article",
           "searchText": "how type influences readability https://fonts.google.com/knowledge/readability_and_accessibility/how_type_influences_readability article research & accessibility (ux, usability, a11y) research & accessibility (ux, usability, a11y)"
         },
         {
-          "id": "resource-310",
+          "id": "resource-313",
           "title": "Accessibility Weekly",
           "url": "https://a11yweekly.com/",
           "description": "a weekly dose of web accessibility to help you bring it into your everyday work. Delivered to your inbox each Monday, curated by David A. Kennedy",
           "searchText": "accessibility weekly https://a11yweekly.com/ a weekly dose of web accessibility to help you bring it into your everyday work. delivered to your inbox each monday, curated by david a. kennedy research & accessibility (ux, usability, a11y) research & accessibility (ux, usability, a11y)"
         },
         {
-          "id": "resource-311",
+          "id": "resource-314",
           "title": "Best Practices for Cognitive Accessibility in Web Design",
           "url": "https://www.a11y-collective.com/blog/cognitive-accessibility/",
           "description": "article",
           "searchText": "best practices for cognitive accessibility in web design https://www.a11y-collective.com/blog/cognitive-accessibility/ article research & accessibility (ux, usability, a11y) research & accessibility (ux, usability, a11y)"
         },
         {
-          "id": "resource-312",
+          "id": "resource-315",
           "title": "Microsoft Inclusive Design",
           "url": "https://inclusive.microsoft.design/",
           "description": "methodology, born out of digital environments, that enables and draws on the full range of human diversity",
@@ -2300,119 +2321,119 @@
       "parentTitle": "Wireframing, No-Code & AI Web Tools",
       "items": [
         {
-          "id": "resource-313",
+          "id": "resource-316",
           "title": "Framer",
           "url": "https://www.framer.com/",
           "description": "a powerful no-code platform for designing, prototyping, and publishing interactive websites",
           "searchText": "framer https://www.framer.com/ a powerful no-code platform for designing, prototyping, and publishing interactive websites wireframing, no-code & ai web tools wireframing, no-code & ai web tools"
         },
         {
-          "id": "resource-314",
+          "id": "resource-317",
           "title": "Webflow",
           "url": "https://webflow.com/",
           "description": "a visual web development tool that lets you design, build, and launch responsive websites without coding",
           "searchText": "webflow https://webflow.com/ a visual web development tool that lets you design, build, and launch responsive websites without coding wireframing, no-code & ai web tools wireframing, no-code & ai web tools"
         },
         {
-          "id": "resource-315",
+          "id": "resource-318",
           "title": "Subframe",
           "url": "https://www.subframe.com/",
           "description": "a no-code tool for quickly creating wireframes and website layouts with an intuitive drag-and-drop interface",
           "searchText": "subframe https://www.subframe.com/ a no-code tool for quickly creating wireframes and website layouts with an intuitive drag-and-drop interface wireframing, no-code & ai web tools wireframing, no-code & ai web tools"
         },
         {
-          "id": "resource-316",
+          "id": "resource-319",
           "title": "PeachWeb",
           "url": "https://peachweb.io/",
           "description": "a simple no-code website builder focused on fast, easy site creation and publishing",
           "searchText": "peachweb https://peachweb.io/ a simple no-code website builder focused on fast, easy site creation and publishing wireframing, no-code & ai web tools wireframing, no-code & ai web tools"
         },
         {
-          "id": "resource-317",
+          "id": "resource-320",
           "title": "Frameplugins",
           "url": "https://frameplugins.com/",
           "description": "best Framer plugins to supercharge your website",
           "searchText": "frameplugins https://frameplugins.com/ best framer plugins to supercharge your website wireframing, no-code & ai web tools wireframing, no-code & ai web tools"
         },
         {
-          "id": "resource-318",
+          "id": "resource-321",
           "title": "🤖 Flowmapp",
           "url": "https://www.flowmapp.com/",
           "description": "a visual platform for planning UX and pitching web design",
           "searchText": "🤖 flowmapp https://www.flowmapp.com/ a visual platform for planning ux and pitching web design wireframing, no-code & ai web tools wireframing, no-code & ai web tools"
         },
         {
-          "id": "resource-319",
+          "id": "resource-322",
           "title": "🤖 Musho",
           "url": "https://musho.ai/",
           "description": "turns your prompts into nearly complete, dev-ready websites with simple layouts",
           "searchText": "🤖 musho https://musho.ai/ turns your prompts into nearly complete, dev-ready websites with simple layouts wireframing, no-code & ai web tools wireframing, no-code & ai web tools"
         },
         {
-          "id": "resource-320",
+          "id": "resource-323",
           "title": "🤖 Figr",
           "url": "https://figr.design/",
           "description": "first AI for deep product thinking to go from research to Interface designs",
           "searchText": "🤖 figr https://figr.design/ first ai for deep product thinking to go from research to interface designs wireframing, no-code & ai web tools wireframing, no-code & ai web tools"
         },
         {
-          "id": "resource-321",
+          "id": "resource-324",
           "title": "🤖 Relume",
           "url": "https://www.relume.io/",
           "description": "websites designed and built faster with AI",
           "searchText": "🤖 relume https://www.relume.io/ websites designed and built faster with ai wireframing, no-code & ai web tools wireframing, no-code & ai web tools"
         },
         {
-          "id": "resource-322",
+          "id": "resource-325",
           "title": "🤖 Dora AI",
           "url": "https://www.dora.run/ai",
           "description": "generate, customize, and deploy 3D websites with AI",
           "searchText": "🤖 dora ai https://www.dora.run/ai generate, customize, and deploy 3d websites with ai wireframing, no-code & ai web tools wireframing, no-code & ai web tools"
         },
         {
-          "id": "resource-323",
+          "id": "resource-326",
           "title": "🤖 Visily AI",
           "url": "https://www.visily.ai/",
           "description": "wireframe tool that swiftly transforms screenshots, templates, or text prompts into editable wireframes and prototypes, powered by AI",
           "searchText": "🤖 visily ai https://www.visily.ai/ wireframe tool that swiftly transforms screenshots, templates, or text prompts into editable wireframes and prototypes, powered by ai wireframing, no-code & ai web tools wireframing, no-code & ai web tools"
         },
         {
-          "id": "resource-324",
+          "id": "resource-327",
           "title": "🤖 Readdy AI",
           "url": "https://readdy.ai/",
           "description": "turns your product requirements into beautiful, professional designs in minutes",
           "searchText": "🤖 readdy ai https://readdy.ai/ turns your product requirements into beautiful, professional designs in minutes wireframing, no-code & ai web tools wireframing, no-code & ai web tools"
         },
         {
-          "id": "resource-325",
+          "id": "resource-328",
           "title": "🤖 Wegic",
           "url": "https://wegic.ai/",
           "description": "create custom websites in seconds",
           "searchText": "🤖 wegic https://wegic.ai/ create custom websites in seconds wireframing, no-code & ai web tools wireframing, no-code & ai web tools"
         },
         {
-          "id": "resource-326",
+          "id": "resource-329",
           "title": "🤖 SiteForge",
           "url": "https://siteforge.io/",
           "description": "AI Wireframe Generator",
           "searchText": "🤖 siteforge https://siteforge.io/ ai wireframe generator wireframing, no-code & ai web tools wireframing, no-code & ai web tools"
         },
         {
-          "id": "resource-327",
+          "id": "resource-330",
           "title": "🤖 Bolt.new",
           "url": "https://bolt.new/",
           "description": "create stunning apps & websites by chatting with AI",
           "searchText": "🤖 bolt.new https://bolt.new/ create stunning apps & websites by chatting with ai wireframing, no-code & ai web tools wireframing, no-code & ai web tools"
         },
         {
-          "id": "resource-328",
+          "id": "resource-331",
           "title": "🤖 Lovable",
           "url": "https://lovable.dev/",
           "description": "create apps and websites by chatting with AI",
           "searchText": "🤖 lovable https://lovable.dev/ create apps and websites by chatting with ai wireframing, no-code & ai web tools wireframing, no-code & ai web tools"
         },
         {
-          "id": "resource-329",
+          "id": "resource-332",
           "title": "🤖 v0 by Vercel",
           "url": "https://v0.app/",
           "description": "an AI agent that turns ideas into fully built apps while also helping teams research, plan, and execute work end-to-end",
@@ -2426,49 +2447,49 @@
       "parentTitle": "Design Games & Exercises",
       "items": [
         {
-          "id": "resource-330",
+          "id": "resource-333",
           "title": "The Bézier Game",
           "url": "https://bezier.method.ac/",
           "description": "a game to help you master the pen tool (requires keyboard and mouse)",
           "searchText": "the bézier game https://bezier.method.ac/ a game to help you master the pen tool (requires keyboard and mouse) design games & exercises design games & exercises"
         },
         {
-          "id": "resource-331",
+          "id": "resource-334",
           "title": "What Should I Design",
           "url": "https://www.whatshouldidesign.com/",
           "description": "a set of design challenges to practice design",
           "searchText": "what should i design https://www.whatshouldidesign.com/ a set of design challenges to practice design design games & exercises design games & exercises"
         },
         {
-          "id": "resource-332",
+          "id": "resource-335",
           "title": "Sharpen Design",
           "url": "https://sharpen.design/",
           "description": "millions of practice design prompts to challenge you to think outside the box",
           "searchText": "sharpen design https://sharpen.design/ millions of practice design prompts to challenge you to think outside the box design games & exercises design games & exercises"
         },
         {
-          "id": "resource-333",
+          "id": "resource-336",
           "title": "UX Design Challenges",
           "url": "https://www.uxtools.co/challenges",
           "description": "a set of real-world challenges to practice crucial UX design skills",
           "searchText": "ux design challenges https://www.uxtools.co/challenges a set of real-world challenges to practice crucial ux design skills design games & exercises design games & exercises"
         },
         {
-          "id": "resource-334",
+          "id": "resource-337",
           "title": "Monowi: Product Design Exercises 1.1",
           "url": "https://monowi.notion.site/Monowi-Product-Design-Exercises-1-1-99c913d7ec554164be0bbc785bccda97",
           "description": "exercises for product designers",
           "searchText": "monowi: product design exercises 1.1 https://monowi.notion.site/monowi-product-design-exercises-1-1-99c913d7ec554164be0bbc785bccda97 exercises for product designers design games & exercises design games & exercises"
         },
         {
-          "id": "resource-335",
+          "id": "resource-338",
           "title": "Sprint Cards",
           "url": "https://sprint.cards/",
           "description": "design challenges focused on UX thinking",
           "searchText": "sprint cards https://sprint.cards/ design challenges focused on ux thinking design games & exercises design games & exercises"
         },
         {
-          "id": "resource-336",
+          "id": "resource-339",
           "title": "Good Brief",
           "url": "https://goodbrief.io/",
           "description": "randomly generate smart design briefs to practice your design skills, get content for your portfolio, and gain experience working off a real design brief",
@@ -2482,7 +2503,7 @@
       "parentTitle": "Podcasts",
       "items": [
         {
-          "id": "resource-337",
+          "id": "resource-340",
           "title": "Design Sphere",
           "url": "https://www.designsphere.xyz/",
           "description": "a curated selection of podcasts discussing UX/UI, branding, motion design, graphic design, design systems, & more.",
@@ -2496,14 +2517,14 @@
       "parentTitle": "Chrome Extensions",
       "items": [
         {
-          "id": "resource-338",
+          "id": "resource-341",
           "title": "Plerdy UX & Usability Testing",
           "url": "https://chromewebstore.google.com/detail/plerdy-ux-usability-testi/cdbneippcpjnpjenabkgfljgpjmamobg",
           "description": "UX & Usability Testing Chrome extension to enhance site design with heatmaps, scroll tracking, and screenshots",
           "searchText": "plerdy ux & usability testing https://chromewebstore.google.com/detail/plerdy-ux-usability-testi/cdbneippcpjnpjenabkgfljgpjmamobg ux & usability testing chrome extension to enhance site design with heatmaps, scroll tracking, and screenshots chrome extensions chrome extensions"
         },
         {
-          "id": "resource-339",
+          "id": "resource-342",
           "title": "Accessibility Insights for Web",
           "url": "https://chromewebstore.google.com/detail/accessibility-insights-fo/pbjjkligggfmakdaogkfomddhfmpjeni?hl=en",
           "description": "Accessibility Insights for Web helps developers quickly find and fix accessibility issues",
