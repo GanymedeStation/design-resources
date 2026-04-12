@@ -12,28 +12,24 @@
 
 :root {
   font-family: "BarlowSemi", sans-serif;
-  color: oklch(0.94 0.01 285);
-  background:
-    radial-gradient(circle at top left, rgba(238, 72, 125, 0.2), transparent 24%),
-    radial-gradient(circle at top right, rgba(84, 195, 173, 0.12), transparent 22%),
-    linear-gradient(180deg, rgba(28, 27, 44, 0.98), rgba(18, 18, 29, 0.98)),
-    oklch(0.2 0.02 285);
+  color: oklch(0.92 0.01 285);
+  background: oklch(0.12 0.014 285);
   color-scheme: dark;
-  --page-bg: oklch(0.2 0.02 285);
-  --surface-strong: rgba(23, 24, 39, 0.9);
-  --surface-soft: rgba(32, 34, 54, 0.8);
-  --surface-card: rgba(37, 39, 61, 0.9);
-  --surface-card-hover: rgba(43, 46, 70, 0.96);
-  --line: rgba(255, 255, 255, 0.08);
-  --line-strong: rgba(255, 255, 255, 0.16);
-  --text-primary: oklch(0.94 0.01 285);
-  --text-secondary: oklch(0.8 0.02 285);
-  --text-muted: oklch(0.68 0.02 285);
-  --accent: oklch(0.67 0.2 10);
-  --accent-soft: rgba(238, 72, 125, 0.16);
-  --focus: oklch(0.69 0.2 10);
-  --shadow-soft: 0 20px 60px rgba(0, 0, 0, 0.32);
-  --shadow-card: 0 18px 42px rgba(0, 0, 0, 0.28);
+  --page-bg: oklch(18.15% 0.03055 282.933);
+  --surface-strong: rgba(18, 19, 31, 0.98);
+  --surface-soft: rgba(23, 24, 38, 0.96);
+  --surface-card: rgba(22, 23, 37, 0.98);
+  --surface-card-hover: rgba(30, 31, 49, 0.99);
+  --line: rgba(255, 255, 255, 0.06);
+  --line-strong: rgba(255, 255, 255, 0.11);
+  --text-primary: oklch(0.93 0.01 285);
+  --text-secondary: oklch(0.77 0.012 285);
+  --text-muted: oklch(0.62 0.012 285);
+  --accent: oklch(0.65 0.12 10);
+  --accent-soft: rgba(210, 89, 110, 0.12);
+  --focus: oklch(0.68 0.12 10);
+  --shadow-soft: 0 12px 24px rgba(0, 0, 0, 0.18);
+  --shadow-card: none;
 }
 
 * {
@@ -136,7 +132,7 @@ input {
   margin: 24px 0 34px;
   padding: 18px;
   border: 1px solid var(--line);
-  border-radius: 24px;
+  border-radius: 16px;
   background: var(--surface-soft);
 }
 
@@ -156,10 +152,10 @@ input {
   width: min(100%, 420px);
   padding: 14px 18px;
   border: 1px solid var(--line-strong);
-  border-radius: 18px;
-  background: rgba(16, 17, 28, 0.9);
+  border-radius: 12px;
+  background: rgba(14, 15, 24, 0.98);
   color: var(--text-primary);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  box-shadow: none;
   outline: none;
 }
 
@@ -169,10 +165,8 @@ input {
 }
 
 .search-panel input:focus-visible {
-  border-color: color-mix(in srgb, var(--focus) 60%, white);
-  box-shadow:
-    0 0 0 4px rgba(238, 72, 125, 0.16),
-    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  border-color: color-mix(in srgb, var(--focus) 68%, white);
+  box-shadow: 0 0 0 3px rgba(210, 89, 110, 0.14);
 }
 
 .command-palette-backdrop {
@@ -182,17 +176,15 @@ input {
   display: grid;
   place-items: start center;
   padding: clamp(20px, 8vh, 72px) 16px 24px;
-  background: rgba(11, 11, 18, 0.72);
-  backdrop-filter: blur(14px);
+  background: rgba(8, 8, 12, 0.82);
 }
 
 .command-palette {
   width: min(760px, 100%);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 28px;
-  background:
-    linear-gradient(180deg, rgba(31, 33, 52, 0.98), rgba(20, 22, 35, 0.98));
-  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.42);
+  border: 1px solid var(--line-strong);
+  border-radius: 18px;
+  background: var(--surface-strong);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.38);
   overflow: hidden;
 }
 
@@ -216,7 +208,7 @@ input {
   padding: 6px 10px;
   border: 1px solid var(--line);
   border-radius: 999px;
-  background: rgba(255, 255, 255, 0.03);
+  background: rgba(255, 255, 255, 0.02);
   color: var(--text-muted);
   cursor: pointer;
 }
@@ -226,8 +218,8 @@ input {
   margin: 16px 20px 18px;
   padding: 16px 18px;
   border: 1px solid var(--line-strong);
-  border-radius: 18px;
-  background: rgba(14, 15, 24, 0.92);
+  border-radius: 12px;
+  background: rgba(13, 14, 22, 0.98);
   color: var(--text-primary);
   outline: none;
 }
@@ -261,9 +253,9 @@ input {
   gap: 8px;
   padding: 14px;
   border: 1px solid transparent;
-  border-radius: 18px;
+  border-radius: 12px;
   text-decoration: none;
-  background: rgba(255, 255, 255, 0.03);
+  background: rgba(255, 255, 255, 0.02);
   transition:
     background-color 160ms ease,
     border-color 160ms ease,
@@ -273,8 +265,8 @@ input {
 .command-palette-item:hover,
 .command-palette-item:focus-visible {
   transform: translateY(-1px);
-  border-color: rgba(238, 72, 125, 0.28);
-  background: rgba(49, 52, 79, 0.92);
+  border-color: rgba(210, 89, 110, 0.24);
+  background: rgba(34, 35, 54, 0.96);
 }
 
 .command-palette-item:focus-visible {
@@ -334,7 +326,7 @@ input {
   padding: 10px 14px;
   border: 1px solid var(--line);
   border-radius: 999px;
-  background: rgba(32, 34, 54, 0.55);
+  background: rgba(24, 25, 40, 0.72);
   text-decoration: none;
   color: var(--text-secondary);
   transition:
@@ -347,8 +339,8 @@ input {
 .contents-link:hover,
 .contents-link:focus-visible {
   transform: translateY(-1px);
-  border-color: rgba(238, 72, 125, 0.32);
-  background: rgba(44, 47, 71, 0.82);
+  border-color: rgba(210, 89, 110, 0.28);
+  background: rgba(31, 32, 49, 0.9);
   color: var(--text-primary);
 }
 
@@ -424,8 +416,8 @@ input {
   gap: 20px;
   align-content: space-between;
   padding: 18px;
-  border: 1px solid rgba(255, 255, 255, 0.08);
-  border-radius: 20px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
   background: var(--surface-card);
   text-decoration: none;
   box-shadow: var(--shadow-card);
@@ -438,10 +430,10 @@ input {
 
 .resource-card:hover,
 .resource-card:focus-visible {
-  transform: translateY(-3px);
+  transform: translateY(-1px);
   background: var(--surface-card-hover);
-  border-color: rgba(238, 72, 125, 0.32);
-  box-shadow: 0 22px 48px rgba(0, 0, 0, 0.34);
+  border-color: rgba(210, 89, 110, 0.22);
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.16);
 }
 
 .resource-card:focus-visible {
@@ -475,7 +467,7 @@ input {
   gap: 10px 12px;
   align-items: center;
   padding-top: 12px;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: 1px solid var(--line);
 }
 
 .resource-domain {
@@ -498,8 +490,8 @@ input {
   padding: 38px 20px;
   text-align: center;
   border: 1px dashed var(--line-strong);
-  border-radius: 26px;
-  background: rgba(28, 30, 47, 0.82);
+  border-radius: 18px;
+  background: rgba(20, 21, 34, 0.82);
 }
 
 .empty-state p {
@@ -522,7 +514,7 @@ input {
   padding: 10px 16px;
   border: 1px solid var(--line);
   border-radius: 999px;
-  background: rgba(32, 34, 54, 0.6);
+  background: rgba(24, 25, 40, 0.72);
   color: var(--text-secondary);
   text-decoration: none;
   transition:
@@ -535,8 +527,8 @@ input {
 .back-to-top:hover,
 .back-to-top:focus-visible {
   transform: translateY(-1px);
-  border-color: rgba(238, 72, 125, 0.32);
-  background: rgba(44, 47, 71, 0.88);
+  border-color: rgba(210, 89, 110, 0.28);
+  background: rgba(31, 32, 49, 0.9);
   color: var(--text-primary);
 }
 
@@ -550,7 +542,7 @@ input {
   right: 18px;
   bottom: 18px;
   z-index: 20;
-  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.28);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .footer p {
@@ -573,7 +565,7 @@ input {
   height: 44px;
   border: 1px solid var(--line);
   border-radius: 50%;
-  background: rgba(22, 24, 38, 0.92);
+  background: rgba(18, 19, 31, 0.98);
   transition:
     transform 160ms ease,
     border-color 160ms ease,
@@ -583,8 +575,8 @@ input {
 .project-link:hover,
 .project-link:focus-visible {
   transform: translateY(-2px);
-  border-color: rgba(238, 72, 125, 0.32);
-  background: rgba(30, 33, 52, 0.98);
+  border-color: rgba(210, 89, 110, 0.28);
+  background: rgba(28, 29, 44, 0.98);
 }
 
 .project-link:focus-visible {
@@ -657,7 +649,7 @@ input {
   }
 
   .command-palette {
-    border-radius: 22px;
+    border-radius: 16px;
   }
 }
 
