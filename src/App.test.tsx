@@ -1,4 +1,4 @@
-import { render, screen, within } from "@testing-library/react";
+import { fireEvent, render, screen, within } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import { afterEach, vi } from "vitest";
 import App from "./App";
@@ -68,10 +68,34 @@ describe("App", () => {
 
     await user.type(screen.getByRole("searchbox", { name: /search resources/i }), "hero");
 
-    expect(screen.queryByText("Figma plugins & resources")).not.toBeInTheDocument();
+    expect(screen.queryByRole("heading", { name: "Figma plugins & resources" })).not.toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "Icon packs" })).toBeInTheDocument();
     expect(screen.getByRole("link", { name: /heroicons/i })).toBeInTheDocument();
     expect(screen.getByText("svg icon set")).toBeInTheDocument();
+  });
+
+  it("filters the list when a section is selected", async () => {
+    const user = userEvent.setup();
+
+    render(<App dataset={dataset} />);
+
+    await user.click(screen.getByRole("button", { name: /icon packs/i }));
+
+    expect(screen.queryByRole("heading", { name: "Figma plugins & resources" })).not.toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Icon packs" })).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: /heroicons/i })).toBeInTheDocument();
+    expect(screen.queryByRole("link", { name: /simple design system/i })).not.toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /figma plugins & resources/i })).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /icon packs/i })).toBeInTheDocument();
+    expect(screen.getByRole("button", { name: /icon packs/i })).toHaveAttribute("aria-pressed", "true");
+    expect(screen.getByRole("button", { name: /icon packs/i })).toHaveTextContent("×");
+
+    await user.click(screen.getByRole("button", { name: /icon packs/i }));
+
+    expect(screen.getByRole("button", { name: /icon packs/i })).toHaveAttribute("aria-pressed", "false");
+    expect(screen.queryByText("×")).not.toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Figma plugins & resources" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Icon packs" })).toBeInTheDocument();
   });
 
   it("shows an empty state when nothing matches", async () => {
@@ -115,5 +139,32 @@ describe("App", () => {
     expect(sourceLink).toHaveAttribute("target", "_blank");
     expect(authorLink).toHaveAttribute("target", "_blank");
     expect(projectLink).toHaveAttribute("target", "_blank");
+  });
+
+  it("keeps the back to top link hidden until the page has been scrolled", () => {
+    const originalScrollY = window.scrollY;
+
+    Object.defineProperty(window, "scrollY", {
+      configurable: true,
+      value: 0,
+    });
+
+    render(<App dataset={dataset} />);
+
+    expect(screen.queryByRole("link", { name: /back to top/i })).not.toBeInTheDocument();
+
+    Object.defineProperty(window, "scrollY", {
+      configurable: true,
+      value: 400,
+    });
+
+    fireEvent.scroll(window);
+
+    expect(screen.getByRole("link", { name: /back to top/i })).toBeInTheDocument();
+
+    Object.defineProperty(window, "scrollY", {
+      configurable: true,
+      value: originalScrollY,
+    });
   });
 });

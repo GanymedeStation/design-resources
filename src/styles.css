@@ -328,6 +328,8 @@ input {
   border-radius: 999px;
   background: rgba(24, 25, 40, 0.72);
   text-decoration: none;
+  cursor: pointer;
+  appearance: none;
   color: var(--text-secondary);
   transition:
     transform 160ms ease,
@@ -347,6 +349,19 @@ input {
 .contents-link:focus-visible {
   outline: 2px solid var(--focus);
   outline-offset: 3px;
+}
+
+.contents-link[aria-pressed="true"] {
+  border-color: rgba(210, 89, 110, 0.4);
+  background: rgba(35, 33, 46, 0.96);
+  color: var(--text-primary);
+}
+
+.contents-link[aria-pressed="true"] .contents-clear {
+  margin-left: 4px;
+  color: var(--accent);
+  font-size: 0.95rem;
+  line-height: 1;
 }
 
 .contents-count {
@@ -543,6 +558,15 @@ input {
   bottom: 18px;
   z-index: 20;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transform: translateY(8px);
+  pointer-events: none;
+}
+
+.back-to-top-floating.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
 }
 
 .footer p {

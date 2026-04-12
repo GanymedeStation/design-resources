@@ -13,8 +13,10 @@ interface AppProps {
 
 function App({ dataset = loadResourceDataset() }: AppProps) {
   const [query, setQuery] = useState("");
+  const [selectedGroupId, setSelectedGroupId] = useState<string | null>(null);
   const [isPaletteOpen, setIsPaletteOpen] = useState(false);
   const [paletteQuery, setPaletteQuery] = useState("");
+  const [isBackToTopVisible, setIsBackToTopVisible] = useState(false);
   const [shouldAutoFocusSearch] = useState(() => {
     if (typeof window === "undefined" || typeof window.matchMedia !== "function") {
       return true;
@@ -35,7 +37,7 @@ function App({ dataset = loadResourceDataset() }: AppProps) {
   const deferredQuery = useDeferredValue(query);
   const normalizedQuery = deferredQuery.trim().toLowerCase();
 
-  const filteredGroups = useMemo(() => {
+  const searchFilteredGroups = useMemo(() => {
     if (!normalizedQuery) {
       return dataset.groups;
     }
@@ -47,6 +49,14 @@ function App({ dataset = loadResourceDataset() }: AppProps) {
       }))
       .filter((group) => group.items.length > 0);
   }, [dataset.groups, normalizedQuery]);
+
+  const filteredGroups = useMemo(() => {
+    if (!selectedGroupId) {
+      return searchFilteredGroups;
+    }
+
+    return searchFilteredGroups.filter((group) => group.id === selectedGroupId);
+  }, [searchFilteredGroups, selectedGroupId]);
 
   const paletteResults = useMemo(() => {
     const normalizedPaletteQuery = paletteQuery.trim().toLowerCase();
@@ -107,6 +117,21 @@ function App({ dataset = loadResourceDataset() }: AppProps) {
     searchInputRef.current?.focus({ preventScroll: true });
   }, [shouldAutoFocusSearch, shouldRestoreScroll]);
 
+  useEffect(() => {
+    if (typeof window === "undefined") {
+      return;
+    }
+
+    const updateBackToTopVisibility = () => {
+      setIsBackToTopVisible(window.scrollY > 300);
+    };
+
+    updateBackToTopVisibility();
+    window.addEventListener("scroll", updateBackToTopVisibility, { passive: true });
+
+    return () => window.removeEventListener("scroll", updateBackToTopVisibility);
+  }, []);
+
   function closePalette() {
     setIsPaletteOpen(false);
     setPaletteQuery("");
@@ -115,6 +140,10 @@ function App({ dataset = loadResourceDataset() }: AppProps) {
   function handlePaletteResultSelect(item: ResourceItem) {
     setQuery(item.title);
     closePalette();
+  }
+
+  function toggleGroupFilter(groupId: string) {
+    setSelectedGroupId((currentGroupId) => (currentGroupId === groupId ? null : groupId));
   }
 
   return (
@@ -226,15 +255,26 @@ function App({ dataset = loadResourceDataset() }: AppProps) {
           </div>
         ) : null}
 
-        {filteredGroups.length > 0 ? (
+        {dataset.groups.length > 0 ? (
           <nav className="contents-nav" aria-label="Sections">
             <p className="contents-label">Sections</p>
             <div className="contents-list">
-              {filteredGroups.map((group) => (
-                <a className="contents-link" key={group.id} href={`#${group.id}`}>
+              {dataset.groups.map((group) => (
+                <button
+                  className="contents-link"
+                  key={group.id}
+                  type="button"
+                  onClick={() => toggleGroupFilter(group.id)}
+                  aria-pressed={selectedGroupId === group.id}
+                >
                   <span>{group.title}</span>
                   <span className="contents-count">{group.items.length}</span>
-                </a>
+                  {selectedGroupId === group.id ? (
+                    <span className="contents-clear" aria-hidden="true">
+                      ×
+                    </span>
+                  ) : null}
+                </button>
               ))}
             </div>
           </nav>
@@ -284,7 +324,12 @@ function App({ dataset = loadResourceDataset() }: AppProps) {
           )}
         </section>
 
-        <a className="back-to-top back-to-top-floating" href="#top">
+        <a
+          className={`back-to-top back-to-top-floating${isBackToTopVisible ? " is-visible" : ""}`}
+          href="#top"
+          aria-hidden={!isBackToTopVisible}
+          tabIndex={isBackToTopVisible ? 0 : -1}
+        >
           Back to top
         </a>
 
